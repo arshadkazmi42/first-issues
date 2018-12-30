@@ -1,0 +1,1397 @@
+{
+  "total_count": 24,
+  "incomplete_results": false,
+  "items": [
+    {
+      "url": "https://api.github.com/repos/tidusjar/NZBDash/issues/53",
+      "labels_url": "https://api.github.com/repos/tidusjar/NZBDash/issues/53/labels{/name}",
+      "comments_url": "https://api.github.com/repos/tidusjar/NZBDash/issues/53/comments",
+      "events_url": "https://api.github.com/repos/tidusjar/NZBDash/issues/53/events",
+      "html_url": "https://github.com/tidusjar/NZBDash/issues/53",
+      "id": 125758032,
+      "number": 53,
+      "title": "Styling",
+      "user": {
+        "login": "tidusjar",
+        "id": 6642220,
+        "avatar_url": "https://avatars.githubusercontent.com/u/6642220?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tidusjar",
+        "html_url": "https://github.com/tidusjar",
+        "followers_url": "https://api.github.com/users/tidusjar/followers",
+        "following_url": "https://api.github.com/users/tidusjar/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tidusjar/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tidusjar/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tidusjar/subscriptions",
+        "organizations_url": "https://api.github.com/users/tidusjar/orgs",
+        "repos_url": "https://api.github.com/users/tidusjar/repos",
+        "events_url": "https://api.github.com/users/tidusjar/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tidusjar/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+        {
+          "url": "https://api.github.com/repos/tidusjar/NZBDash/labels/Approved%20Feature",
+          "name": "Approved Feature",
+          "color": "5319e7"
+        },
+        {
+          "url": "https://api.github.com/repos/tidusjar/NZBDash/labels/first-timers-only",
+          "name": "first-timers-only",
+          "color": "e11d21"
+        },
+        {
+          "url": "https://api.github.com/repos/tidusjar/NZBDash/labels/help%20wanted",
+          "name": "help wanted",
+          "color": "159818"
+        },
+        {
+          "url": "https://api.github.com/repos/tidusjar/NZBDash/labels/up-for-grabs",
+          "name": "up-for-grabs",
+          "color": "fef2c0"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": {
+        "login": "tidusjar",
+        "id": 6642220,
+        "avatar_url": "https://avatars.githubusercontent.com/u/6642220?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tidusjar",
+        "html_url": "https://github.com/tidusjar",
+        "followers_url": "https://api.github.com/users/tidusjar/followers",
+        "following_url": "https://api.github.com/users/tidusjar/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tidusjar/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tidusjar/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tidusjar/subscriptions",
+        "organizations_url": "https://api.github.com/users/tidusjar/orgs",
+        "repos_url": "https://api.github.com/users/tidusjar/repos",
+        "events_url": "https://api.github.com/users/tidusjar/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tidusjar/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "milestone": {
+        "url": "https://api.github.com/repos/tidusjar/NZBDash/milestones/4",
+        "html_url": "https://github.com/tidusjar/NZBDash/milestones/UI%20Features",
+        "labels_url": "https://api.github.com/repos/tidusjar/NZBDash/milestones/4/labels",
+        "id": 1496938,
+        "number": 4,
+        "title": "UI Features",
+        "description": "",
+        "creator": {
+          "login": "tidusjar",
+          "id": 6642220,
+          "avatar_url": "https://avatars.githubusercontent.com/u/6642220?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/tidusjar",
+          "html_url": "https://github.com/tidusjar",
+          "followers_url": "https://api.github.com/users/tidusjar/followers",
+          "following_url": "https://api.github.com/users/tidusjar/following{/other_user}",
+          "gists_url": "https://api.github.com/users/tidusjar/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/tidusjar/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/tidusjar/subscriptions",
+          "organizations_url": "https://api.github.com/users/tidusjar/orgs",
+          "repos_url": "https://api.github.com/users/tidusjar/repos",
+          "events_url": "https://api.github.com/users/tidusjar/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/tidusjar/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "open_issues": 8,
+        "closed_issues": 1,
+        "state": "open",
+        "created_at": "2016-01-11T10:54:53Z",
+        "updated_at": "2016-01-12T20:09:34Z",
+        "due_on": null,
+        "closed_at": null
+      },
+      "comments": 0,
+      "created_at": "2016-01-09T12:51:31Z",
+      "updated_at": "2016-01-15T23:29:41Z",
+      "closed_at": null,
+      "body": "I have to be honest, web design is not my forte.\r\n\r\nDesign wise? I don't know! Let's just see what happens!\r\n\r\nUseful links:\r\nhttps://24ways.org/2012/how-to-make-your-site-look-half-decent/\r\n",
+      "score": 1.0
+    },
+    {
+      "url": "https://api.github.com/repos/pybee/briefcase/issues/5",
+      "labels_url": "https://api.github.com/repos/pybee/briefcase/issues/5/labels{/name}",
+      "comments_url": "https://api.github.com/repos/pybee/briefcase/issues/5/comments",
+      "events_url": "https://api.github.com/repos/pybee/briefcase/issues/5/events",
+      "html_url": "https://github.com/pybee/briefcase/issues/5",
+      "id": 123239403,
+      "number": 5,
+      "title": "Add support for Apple watchOS",
+      "user": {
+        "login": "freakboy3742",
+        "id": 37345,
+        "avatar_url": "https://avatars.githubusercontent.com/u/37345?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/freakboy3742",
+        "html_url": "https://github.com/freakboy3742",
+        "followers_url": "https://api.github.com/users/freakboy3742/followers",
+        "following_url": "https://api.github.com/users/freakboy3742/following{/other_user}",
+        "gists_url": "https://api.github.com/users/freakboy3742/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/freakboy3742/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/freakboy3742/subscriptions",
+        "organizations_url": "https://api.github.com/users/freakboy3742/orgs",
+        "repos_url": "https://api.github.com/users/freakboy3742/repos",
+        "events_url": "https://api.github.com/users/freakboy3742/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/freakboy3742/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+        {
+          "url": "https://api.github.com/repos/pybee/briefcase/labels/first-timers-only",
+          "name": "first-timers-only",
+          "color": "fad8c7"
+        },
+        {
+          "url": "https://api.github.com/repos/pybee/briefcase/labels/up-for-grabs",
+          "name": "up-for-grabs",
+          "color": "159818"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "milestone": null,
+      "comments": 2,
+      "created_at": "2015-12-21T09:25:52Z",
+      "updated_at": "2016-01-13T00:09:25Z",
+      "closed_at": null,
+      "body": "Now that the Python iOS support libraries support watchOS, Briefcase should also support that platform.\r\n\r\nThis will involve:\r\n* Producing a cookiecutter template project (analogous to [Python-iOS-template](https://github.com/pybee/Python-iOS-template))\r\n* Adding a new command to Briefcase to support tvOS. The implementation of this command will be almost identical to iOS, with names and images changed.",
+      "score": 1.0
+    },
+    {
+      "url": "https://api.github.com/repos/pybee/briefcase/issues/4",
+      "labels_url": "https://api.github.com/repos/pybee/briefcase/issues/4/labels{/name}",
+      "comments_url": "https://api.github.com/repos/pybee/briefcase/issues/4/comments",
+      "events_url": "https://api.github.com/repos/pybee/briefcase/issues/4/events",
+      "html_url": "https://github.com/pybee/briefcase/issues/4",
+      "id": 123239397,
+      "number": 4,
+      "title": "Add support for Apple tvOS",
+      "user": {
+        "login": "freakboy3742",
+        "id": 37345,
+        "avatar_url": "https://avatars.githubusercontent.com/u/37345?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/freakboy3742",
+        "html_url": "https://github.com/freakboy3742",
+        "followers_url": "https://api.github.com/users/freakboy3742/followers",
+        "following_url": "https://api.github.com/users/freakboy3742/following{/other_user}",
+        "gists_url": "https://api.github.com/users/freakboy3742/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/freakboy3742/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/freakboy3742/subscriptions",
+        "organizations_url": "https://api.github.com/users/freakboy3742/orgs",
+        "repos_url": "https://api.github.com/users/freakboy3742/repos",
+        "events_url": "https://api.github.com/users/freakboy3742/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/freakboy3742/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+        {
+          "url": "https://api.github.com/repos/pybee/briefcase/labels/first-timers-only",
+          "name": "first-timers-only",
+          "color": "fad8c7"
+        },
+        {
+          "url": "https://api.github.com/repos/pybee/briefcase/labels/up-for-grabs",
+          "name": "up-for-grabs",
+          "color": "159818"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "milestone": null,
+      "comments": 0,
+      "created_at": "2015-12-21T09:25:49Z",
+      "updated_at": "2015-12-22T07:51:47Z",
+      "closed_at": null,
+      "body": "Now that the Python iOS support libraries support tvOS, Briefcase should also support that platform.\r\n\r\nThis will involve adding a new command to Briefcase to support tvOS. The implementation of this command will be almost identical to iOS, with names and images changed.\r\n\r\nA template cookiecutter project [already exists](https://github.com/pybee/Python-tvOS-template).",
+      "score": 1.0
+    },
+    {
+      "url": "https://api.github.com/repos/pinax/pinax/issues/103",
+      "labels_url": "https://api.github.com/repos/pinax/pinax/issues/103/labels{/name}",
+      "comments_url": "https://api.github.com/repos/pinax/pinax/issues/103/comments",
+      "events_url": "https://api.github.com/repos/pinax/pinax/issues/103/events",
+      "html_url": "https://github.com/pinax/pinax/issues/103",
+      "id": 122078778,
+      "number": 103,
+      "title": "Describe how a new user can install a new application",
+      "user": {
+        "login": "ossanna16",
+        "id": 8700795,
+        "avatar_url": "https://avatars.githubusercontent.com/u/8700795?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ossanna16",
+        "html_url": "https://github.com/ossanna16",
+        "followers_url": "https://api.github.com/users/ossanna16/followers",
+        "following_url": "https://api.github.com/users/ossanna16/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ossanna16/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ossanna16/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ossanna16/subscriptions",
+        "organizations_url": "https://api.github.com/users/ossanna16/orgs",
+        "repos_url": "https://api.github.com/users/ossanna16/repos",
+        "events_url": "https://api.github.com/users/ossanna16/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ossanna16/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+        {
+          "url": "https://api.github.com/repos/pinax/pinax/labels/difficulty:%20easy",
+          "name": "difficulty: easy",
+          "color": "bfe5bf"
+        },
+        {
+          "url": "https://api.github.com/repos/pinax/pinax/labels/docs",
+          "name": "docs",
+          "color": "006b75"
+        },
+        {
+          "url": "https://api.github.com/repos/pinax/pinax/labels/first-timers-only",
+          "name": "first-timers-only",
+          "color": "5319e7"
+        },
+        {
+          "url": "https://api.github.com/repos/pinax/pinax/labels/up-for-grabs",
+          "name": "up-for-grabs",
+          "color": "fbca04"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "milestone": null,
+      "comments": 0,
+      "created_at": "2015-12-14T16:30:11Z",
+      "updated_at": "2015-12-14T16:33:57Z",
+      "closed_at": null,
+      "body": "So far the [Quick Start section](http://pinaxproject.com/pinax/quick_start/) in our Pinax documentation only shows how you can create a new project based on [pinax-project-account](https://github.com/pinax/pinax-project-account). Pinax projects are just Django projects and Pinax apps are just Django apps so you can add any Django app or any Pinax app to a Pinax starter project. We think it would be nice to show our users how to add one or two Pinax apps to their project after they got `pinax-project-account` up and running with the help of our Quick Start.\r\nWe'd like to give someone who has never contributed to open source before a chance to tackle this task in order to make their first OSS contribution. If you have contributed to open source before, please let someone else take this one. Below you can find some guidelines and instructions on what you need to do:\r\n\r\n* Read [this blog post](http://blog.pinaxproject.com/2015/11/10/guide-how-contribute-pinax/) (especially the \"how to make a pull request section\") to learn what you need to to do set everything up.\r\n* Watch [this video](https://www.youtube.com/watch?v=VEO9sh-anCQ) and read [this blog post](http://blog.pinaxproject.com/2015/11/25/recap-november-pinax-hangout/) (especially the \"adding apps to starter projects\" section) to learn more about `pinax-project-account` (what apps it consists of etc.) and how you can add apps to a Pinax project (or really any Django project).\r\n* Open the forked `pinax/pinax` repository in your text editor, then open the `docs` folder, and finally open the `quick_start.md` file.\r\n* At the very bottom of the file you should see this \"TODO: Then add one more app\". You can remove this line and add your description on how to add an app to a Pinax starter project. Don't forget to save your changes. Please note that we use [Markdown syntax](https://daringfireball.net/projects/markdown/) for our documentation.\r\n* Let's see what our changes look like. To do so type `mkdocs serve` into your terminal. Make sure you `cd'd` into the folder in which you copied your forked repository first. Then type `127.0.0.1:8000/` into your browser and you should see the Pinax documentation including the changes you made. Awesome!\r\n* Press the ctrl+c keys in order to stop the server, then follow the instructions (\"how to make a pull request\" section) [here](http://blog.pinaxproject.com/2015/11/10/guide-how-contribute-pinax/) to learn how to push your changes to your forked repository on GitHub and make a pull request.\r\n* Celebrate! You are now an open source contributor! 🎉\r\n\r\nOne of us will then review your pull request and if everything looks great we will merge it (you will receive an email notification from GitHub). If you need to make additional changes, we will comment on your pull request and help you figure out the next steps. Don't worry, this is totally normal and doesn't mean that your pull request isn't awesome. Sometimes it just happens that a few things need to be tweaked. \r\n\r\nIf you have any questions or need help, comment on this issue and mention me @ossanna16 (I will receive a notification this way). One of us will then reply and help you. It's even better if you would join our [Pinax Slack channel](http://slack.pinaxproject.com) (it's free). Someone is always there to help and answer any questions. If you'd like to reach me personally mention me @anna in our Pinax project Slack channel. Please remember that there are no stupid questions. We want to help you succeed and want to help you make your first open source contribution. 😊\r\n\r\n",
+      "score": 1.0
+    },
+    {
+      "url": "https://api.github.com/repos/pinax/pinax/issues/102",
+      "labels_url": "https://api.github.com/repos/pinax/pinax/issues/102/labels{/name}",
+      "comments_url": "https://api.github.com/repos/pinax/pinax/issues/102/comments",
+      "events_url": "https://api.github.com/repos/pinax/pinax/issues/102/events",
+      "html_url": "https://github.com/pinax/pinax/issues/102",
+      "id": 121059299,
+      "number": 102,
+      "title": "Update Pinax Quick Start and pinax/pinax README with new pinax-cli way of starting projects",
+      "user": {
+        "login": "ossanna16",
+        "id": 8700795,
+        "avatar_url": "https://avatars.githubusercontent.com/u/8700795?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ossanna16",
+        "html_url": "https://github.com/ossanna16",
+        "followers_url": "https://api.github.com/users/ossanna16/followers",
+        "following_url": "https://api.github.com/users/ossanna16/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ossanna16/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ossanna16/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ossanna16/subscriptions",
+        "organizations_url": "https://api.github.com/users/ossanna16/orgs",
+        "repos_url": "https://api.github.com/users/ossanna16/repos",
+        "events_url": "https://api.github.com/users/ossanna16/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ossanna16/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+        {
+          "url": "https://api.github.com/repos/pinax/pinax/labels/difficulty:%20easy",
+          "name": "difficulty: easy",
+          "color": "bfe5bf"
+        },
+        {
+          "url": "https://api.github.com/repos/pinax/pinax/labels/docs",
+          "name": "docs",
+          "color": "006b75"
+        },
+        {
+          "url": "https://api.github.com/repos/pinax/pinax/labels/first-timers-only",
+          "name": "first-timers-only",
+          "color": "5319e7"
+        },
+        {
+          "url": "https://api.github.com/repos/pinax/pinax/labels/up-for-grabs",
+          "name": "up-for-grabs",
+          "color": "fbca04"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "milestone": null,
+      "comments": 6,
+      "created_at": "2015-12-08T17:38:00Z",
+      "updated_at": "2015-12-09T21:04:23Z",
+      "closed_at": null,
+      "body": "Right now the [Quick Start](http://pinaxproject.com/pinax/quick_start/) in the [Pinax documentation](http://pinaxproject.com/pinax/) and the [README of this repository](https://github.com/pinax/pinax/blob/master/README.md) still show the \"manual\" way of starting Pinax starter projects. Since there's now an easier way to do that with the Pinax Command Line ([pinax-cli](https://github.com/pinax/pinax-cli)) both of these documents need to be updated. We'd like to give someone who has never contributed to open source before a chance to tackle this task in order to make their first OSS contribution. If you have contributed to open source before, please let someone else take this one. Below you can find some guidelines and instructions on what you need to do:\r\n\r\n* Read [this blog post](http://blog.pinaxproject.com/2015/11/10/guide-how-contribute-pinax/) (especially the \"how to make a pull request section\") to learn what you need to to do set everything up. \r\n* Watch [this video](https://www.youtube.com/watch?v=l4yVb9zrbuw#action=share) and read [this blog post](http://blog.pinaxproject.com/2015/11/02/recap-october-pinax-hangout/) to learn how @brosner uses `pinax-cli` to install `pinax-project-blog`.\r\n* Open the forked `pinax/pinax` repository in your text editor and update the \"Getting Started\" section in the `README.md` file with the new `pinax-cli` way of starting projects. Don't forget to save your changes. Please note that we use [Markdown syntax](https://daringfireball.net/projects/markdown/) for our documentation.\r\n* In your text editor open the `docs` folder of the `pinax/pinax` repository and create a new file (right click \"New File\") named `quick_start_manual.md`.\r\n* Open the `quick_start.md` file, copy the content, and paste it into your new `quick_start_manual.md` file. At the very top of the file you should change the title \"Quick Start\" to \"Quick Start Manual\", then save the file.\r\n* Go back to the `quick_start.md` file and update the file the same way you updated the `README.md` file earlier to showcase the new `pinax-cli` way of starting projects.\r\n* We want people to know that there is also a \"manual way\" of starting a project, not only the `pinax-cli` way so you should add one sentence to the document letting people know that if they are interested in learning about the manual way of installing a Pinax project, they should visit the \"Quick Start Manual\" page of the documentation. It would be good if you would link to this page from the `quick_start.md` page. Don't forget to save your changes.\r\n* Since you created a new file, you need to add this file to the navigation bar of the documentation. To do that, open the file named `mkdocs.yml` and add the following line   `- [\"quick_start_manual.md\", \"Introduction\", \"Quick Start Manual\"]` right underneath this line `- [\"quick_start.md\", \"Introduction\", \"Quick Start\"]`. Save your changes.\r\n* You also need to add the new file to the table of contents in the documentation. To do that open the `index.md` file and add the following line `* [Quick Start Manaual](quick_start_manual.md)` right underneath the following line `* [Quick Start](quick_start.md)`. Don't forget to save your changes.\r\n* Let's see what our changes look like. To do so type `mkdocs serve` into your terminal. Make sure you `cd'd` into the folder in which you copied your forked repository first. Then type `127.0.0.1:8000/` into your browser and you should see the Pinax documentation including the changes you made. Awesome!\r\n* Press the ctrl+c keys in order to stop the server, then follow the instructions (\"how to make a pull request\" section) [here](http://blog.pinaxproject.com/2015/11/10/guide-how-contribute-pinax/) to learn how to push your changes to your forked repository on GitHub and make a pull request.\r\n* Celebrate! You are now an open source contributor! 🎉\r\n\r\nOne of us will then review your pull request and if everything looks great we will merge it (you will receive an email notification from GitHub). If you need to make additional changes, we will comment on your pull request and help you figure out the next steps. Don't worry, this is totally normal and doesn't mean that your pull request isn't awesome. Sometimes it just happens that a few things need to be tweaked. \r\n\r\nIf you have any questions or need help, comment on this issue and mention me @ossanna16 (I will receive a notification this way). One of us will then reply and help you. It's even better if you would join our [Pinax Slack channel](http://slack.pinaxproject.com) (it's free). Someone is always there to help and answer any questions. If you'd like to reach me personally mention me @anna in our Pinax project Slack channel. Please remember that there are no stupid questions. We want to help you succeed and want to help you make your first open source contribution. 😊\r\n",
+      "score": 1.0
+    },
+    {
+      "url": "https://api.github.com/repos/pybee/voc/issues/38",
+      "labels_url": "https://api.github.com/repos/pybee/voc/issues/38/labels{/name}",
+      "comments_url": "https://api.github.com/repos/pybee/voc/issues/38/comments",
+      "events_url": "https://api.github.com/repos/pybee/voc/issues/38/events",
+      "html_url": "https://github.com/pybee/voc/issues/38",
+      "id": 120507015,
+      "number": 38,
+      "title": "Complete implementation of methods on standard types",
+      "user": {
+        "login": "freakboy3742",
+        "id": 37345,
+        "avatar_url": "https://avatars.githubusercontent.com/u/37345?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/freakboy3742",
+        "html_url": "https://github.com/freakboy3742",
+        "followers_url": "https://api.github.com/users/freakboy3742/followers",
+        "following_url": "https://api.github.com/users/freakboy3742/following{/other_user}",
+        "gists_url": "https://api.github.com/users/freakboy3742/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/freakboy3742/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/freakboy3742/subscriptions",
+        "organizations_url": "https://api.github.com/users/freakboy3742/orgs",
+        "repos_url": "https://api.github.com/users/freakboy3742/repos",
+        "events_url": "https://api.github.com/users/freakboy3742/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/freakboy3742/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+        {
+          "url": "https://api.github.com/repos/pybee/voc/labels/enhancement",
+          "name": "enhancement",
+          "color": "84b6eb"
+        },
+        {
+          "url": "https://api.github.com/repos/pybee/voc/labels/first-timers-only",
+          "name": "first-timers-only",
+          "color": "fad8c7"
+        },
+        {
+          "url": "https://api.github.com/repos/pybee/voc/labels/up-fo-grabs",
+          "name": "up-fo-grabs",
+          "color": "159818"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "milestone": null,
+      "comments": 8,
+      "created_at": "2015-12-04T23:26:41Z",
+      "updated_at": "2015-12-27T02:44:10Z",
+      "closed_at": null,
+      "body": "The builtin types of Python have a number of methods associated with them - for example, `dict` objects have `update()`, `items()`, `keys()`, `pop()` and so on. These methods need to be implemented in Java. In many cases, there will be a simple mapping to an analogous function in the underlying Java type; however, sometimes you'll need to write an implementation using the available Java primitives.\r\n\r\nTests are are also required; they should go in the module corresponding to the data type [in the tests/datatypes directory](https://github.com/pybee/voc/blob/master/tests/datatypes).\r\n\r\nTests are based on comparing the output of some sample Python code when run through CPython to the output when run through VOC. When the two outputs are identical - and I mean byte-identical, down to the text and punctuation of the error message if appropriate - the test passes.\r\n\r\nIf you want an example to follow, look at [the implementation of `clear()` on `dict`](https://github.com/pybee/voc/blob/master/python/common/org/python/types/Dict.java#L120):\r\n* The `@org.python.Method` annotation is used to expose the clear() method as a symbol that should be available at runtime. \r\n* All arguments are exposed as org.python.Object, and then cast to the right data type as required.\r\n* Finally, the method returns a Python `None`.\r\n",
+      "score": 1.0
+    },
+    {
+      "url": "https://api.github.com/repos/pybee/voc/issues/36",
+      "labels_url": "https://api.github.com/repos/pybee/voc/issues/36/labels{/name}",
+      "comments_url": "https://api.github.com/repos/pybee/voc/issues/36/comments",
+      "events_url": "https://api.github.com/repos/pybee/voc/issues/36/events",
+      "html_url": "https://github.com/pybee/voc/issues/36",
+      "id": 120503421,
+      "number": 36,
+      "title": "Complete implementation of operations on standard types",
+      "user": {
+        "login": "freakboy3742",
+        "id": 37345,
+        "avatar_url": "https://avatars.githubusercontent.com/u/37345?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/freakboy3742",
+        "html_url": "https://github.com/freakboy3742",
+        "followers_url": "https://api.github.com/users/freakboy3742/followers",
+        "following_url": "https://api.github.com/users/freakboy3742/following{/other_user}",
+        "gists_url": "https://api.github.com/users/freakboy3742/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/freakboy3742/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/freakboy3742/subscriptions",
+        "organizations_url": "https://api.github.com/users/freakboy3742/orgs",
+        "repos_url": "https://api.github.com/users/freakboy3742/repos",
+        "events_url": "https://api.github.com/users/freakboy3742/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/freakboy3742/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+        {
+          "url": "https://api.github.com/repos/pybee/voc/labels/enhancement",
+          "name": "enhancement",
+          "color": "84b6eb"
+        },
+        {
+          "url": "https://api.github.com/repos/pybee/voc/labels/first-timers-only",
+          "name": "first-timers-only",
+          "color": "fad8c7"
+        },
+        {
+          "url": "https://api.github.com/repos/pybee/voc/labels/up-fo-grabs",
+          "name": "up-fo-grabs",
+          "color": "159818"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "milestone": null,
+      "comments": 1,
+      "created_at": "2015-12-04T22:57:06Z",
+      "updated_at": "2015-12-08T15:23:59Z",
+      "closed_at": null,
+      "body": "Java has a specific set of allowed operator and operations. Python has a set of operators and operations as well. However, the two don't match exactly. For example, Java will allow any object to be added to a `java.lang.String`; Python does not. On the other hand, Python allows multiplication of `str` by `int` (producing a duplicated string); Java does not. \r\n\r\nIn order to replicate Python behavior in Java, Python's logic for all the basic operations needs to be implemented in the VOC Java support library.\r\n\r\nThe test suite contains around 2800 tests in the that are currently marked as \"expected failures\". These reflect an attempt to do \"every operation between every base data type\". The task: pick a data type, and write the implementation of one of the dunder operation (e.g., `__add__` or `__xor__`) or comparison (`__lt__` or `__eq__`) methods. \r\n\r\nThe tests will pass (and become unexpected successes) when the output of Python code doing that operation is the same when run through CPython and VOC - and I mean byte-identical, down to the text and punctuation of the error message if appropriate.\r\n\r\nIf you want to see an example of what is involved, check out the implementation of [__add__](https://github.com/pybee/voc/blob/master/python/common/org/python/types/Int.java#L135) for integers. If you have an `int`, Python will allows you to add an `int` or a `float` to it; all other types raise a `TypeError`. The list of operations on `int` that still need to be implemented can be [found here](https://github.com/pybee/voc/blob/master/tests/datatypes/test_int.py); if you add a new operation, delete the line that corresponds to that test, and the test will report as a pass, rather than an expected fail.",
+      "score": 1.0
+    },
+    {
+      "url": "https://api.github.com/repos/chaica/db2twitter/issues/5",
+      "labels_url": "https://api.github.com/repos/chaica/db2twitter/issues/5/labels{/name}",
+      "comments_url": "https://api.github.com/repos/chaica/db2twitter/issues/5/comments",
+      "events_url": "https://api.github.com/repos/chaica/db2twitter/issues/5/events",
+      "html_url": "https://github.com/chaica/db2twitter/issues/5",
+      "id": 119203425,
+      "number": 5,
+      "title": "(for first-time contributor) Nice command line management with argparse",
+      "user": {
+        "login": "chaica",
+        "id": 4236195,
+        "avatar_url": "https://avatars.githubusercontent.com/u/4236195?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chaica",
+        "html_url": "https://github.com/chaica",
+        "followers_url": "https://api.github.com/users/chaica/followers",
+        "following_url": "https://api.github.com/users/chaica/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaica/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaica/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaica/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaica/orgs",
+        "repos_url": "https://api.github.com/users/chaica/repos",
+        "events_url": "https://api.github.com/users/chaica/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaica/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+        {
+          "url": "https://api.github.com/repos/chaica/db2twitter/labels/enhancement",
+          "name": "enhancement",
+          "color": "84b6eb"
+        },
+        {
+          "url": "https://api.github.com/repos/chaica/db2twitter/labels/first-timers-only",
+          "name": "first-timers-only",
+          "color": "c7def8"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "milestone": null,
+      "comments": 0,
+      "created_at": "2015-11-27T14:20:08Z",
+      "updated_at": "2015-11-27T15:12:47Z",
+      "closed_at": null,
+      "body": "The goal of this bug report is to write a nice commande-line management using argparse for db2twitter. This bug report should be studied  by a first-time contributor to a free or opensource software. It should lead to a Github Pull Request in order to solve this bug report.\r\n\r\n1/ In your Github , fork the repository db2twitter\r\n2/ in the db2twitter module (the db2twitter directory in the root directory) , create a CliParse class . It should have a __init__ , a main() and an attribute cliargs (have a look at the structure of db2twitter/twbuild.py and organize you code the same way, it's pretty simple)\r\n3/ write the unit test to check if your CliParse class works\r\n4/ in main.py ,  you should instantiate CliParse before other objects, get the attribute cliargs\r\n5/ modify the ConfParse class in order ConfParse knows what configuration file it must parse\r\n6/ In your Github generate a Pull Request\r\n\r\nI'll be available if you have any question.\r\n\r\nRegards,\r\nCarl",
+      "score": 1.0
+    },
+    {
+      "url": "https://api.github.com/repos/reactiveui/ReactiveUI/issues/988",
+      "labels_url": "https://api.github.com/repos/reactiveui/ReactiveUI/issues/988/labels{/name}",
+      "comments_url": "https://api.github.com/repos/reactiveui/ReactiveUI/issues/988/comments",
+      "events_url": "https://api.github.com/repos/reactiveui/ReactiveUI/issues/988/events",
+      "html_url": "https://github.com/reactiveui/ReactiveUI/issues/988",
+      "id": 118639501,
+      "number": 988,
+      "title": "[Documentation][Bug] Code snippet won't compile: Docs -> Errors -> The Handler Chain",
+      "user": {
+        "login": "dsaf",
+        "id": 3845650,
+        "avatar_url": "https://avatars.githubusercontent.com/u/3845650?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/dsaf",
+        "html_url": "https://github.com/dsaf",
+        "followers_url": "https://api.github.com/users/dsaf/followers",
+        "following_url": "https://api.github.com/users/dsaf/following{/other_user}",
+        "gists_url": "https://api.github.com/users/dsaf/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/dsaf/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/dsaf/subscriptions",
+        "organizations_url": "https://api.github.com/users/dsaf/orgs",
+        "repos_url": "https://api.github.com/users/dsaf/repos",
+        "events_url": "https://api.github.com/users/dsaf/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/dsaf/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+        {
+          "url": "https://api.github.com/repos/reactiveui/ReactiveUI/labels/documentation",
+          "name": "documentation",
+          "color": "5319e7"
+        },
+        {
+          "url": "https://api.github.com/repos/reactiveui/ReactiveUI/labels/first-timers-only",
+          "name": "first-timers-only",
+          "color": "009800"
+        },
+        {
+          "url": "https://api.github.com/repos/reactiveui/ReactiveUI/labels/up-for-grabs",
+          "name": "up-for-grabs",
+          "color": "009800"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "milestone": null,
+      "comments": 2,
+      "created_at": "2015-11-24T15:54:27Z",
+      "updated_at": "2015-12-27T22:09:50Z",
+      "closed_at": null,
+      "body": "This code snippet does not compile:\r\n\r\nhttp://reactiveui.readthedocs.org/en/stable/basics/errors/   -   'The Handler Chain'\r\n\r\n```csharp\r\nvar disconnectHandler = UserError.RegisterHandler(async error => {\r\n    // We don't know what thread a UserError can be thrown from, we usually \r\n    // need to move things to the Main thread.\r\n    await RxApp.MainThreadScheduler.ScheduleAsync(() => {\r\n        // NOTE: This code is Incorrect, as it throws away \r\n        // Recovery Options and just returns Cancel. This is Bad™.\r\n        return MesssageBox.Show(error.ErrorMessage);\r\n    });\r\n\r\n    return RecoveryOptionResult.CancelOperation;\r\n});\r\n```\r\n\r\nReasons:\r\n\r\n1) outdated API;\r\n2) spelling error: 'MesssageBox'.",
+      "score": 1.0
+    },
+    {
+      "url": "https://api.github.com/repos/M-Zuber/MyHome/issues/99",
+      "labels_url": "https://api.github.com/repos/M-Zuber/MyHome/issues/99/labels{/name}",
+      "comments_url": "https://api.github.com/repos/M-Zuber/MyHome/issues/99/comments",
+      "events_url": "https://api.github.com/repos/M-Zuber/MyHome/issues/99/events",
+      "html_url": "https://github.com/M-Zuber/MyHome/issues/99",
+      "id": 114461741,
+      "number": 99,
+      "title": "Shallow copy methods for categories",
+      "user": {
+        "login": "M-Zuber",
+        "id": 4746537,
+        "avatar_url": "https://avatars.githubusercontent.com/u/4746537?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/M-Zuber",
+        "html_url": "https://github.com/M-Zuber",
+        "followers_url": "https://api.github.com/users/M-Zuber/followers",
+        "following_url": "https://api.github.com/users/M-Zuber/following{/other_user}",
+        "gists_url": "https://api.github.com/users/M-Zuber/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/M-Zuber/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/M-Zuber/subscriptions",
+        "organizations_url": "https://api.github.com/users/M-Zuber/orgs",
+        "repos_url": "https://api.github.com/users/M-Zuber/repos",
+        "events_url": "https://api.github.com/users/M-Zuber/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/M-Zuber/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+        {
+          "url": "https://api.github.com/repos/M-Zuber/MyHome/labels/enhancement",
+          "name": "enhancement",
+          "color": "84b6eb"
+        },
+        {
+          "url": "https://api.github.com/repos/M-Zuber/MyHome/labels/first-timers-only",
+          "name": "first-timers-only",
+          "color": "f7c6c7"
+        },
+        {
+          "url": "https://api.github.com/repos/M-Zuber/MyHome/labels/Help%20wanted",
+          "name": "Help wanted",
+          "color": "ff69b4"
+        },
+        {
+          "url": "https://api.github.com/repos/M-Zuber/MyHome/labels/Implementation%20Details",
+          "name": "Implementation Details",
+          "color": "006b75"
+        },
+        {
+          "url": "https://api.github.com/repos/M-Zuber/MyHome/labels/Low%20Priority",
+          "name": "Low Priority",
+          "color": "009800"
+        },
+        {
+          "url": "https://api.github.com/repos/M-Zuber/MyHome/labels/New%20Content",
+          "name": "New Content",
+          "color": "006b75"
+        },
+        {
+          "url": "https://api.github.com/repos/M-Zuber/MyHome/labels/Ready",
+          "name": "Ready",
+          "color": "fef2c0"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "milestone": null,
+      "comments": 0,
+      "created_at": "2015-11-01T09:58:59Z",
+      "updated_at": "2015-11-16T08:39:02Z",
+      "closed_at": null,
+      "body": "There is a file in `MyHome.DataClasses` with methods to create shallow copies of the transaction types.\r\nThe category types needs corresponding methods.",
+      "score": 1.0
+    },
+    {
+      "url": "https://api.github.com/repos/wildcard/ReCaptcha-ASP.NET-MVC/issues/6",
+      "labels_url": "https://api.github.com/repos/wildcard/ReCaptcha-ASP.NET-MVC/issues/6/labels{/name}",
+      "comments_url": "https://api.github.com/repos/wildcard/ReCaptcha-ASP.NET-MVC/issues/6/comments",
+      "events_url": "https://api.github.com/repos/wildcard/ReCaptcha-ASP.NET-MVC/issues/6/events",
+      "html_url": "https://github.com/wildcard/ReCaptcha-ASP.NET-MVC/issues/6",
+      "id": 104808555,
+      "number": 6,
+      "title": "Add F# build system like in octokit.net",
+      "user": {
+        "login": "wildcard",
+        "id": 2939405,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2939405?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wildcard",
+        "html_url": "https://github.com/wildcard",
+        "followers_url": "https://api.github.com/users/wildcard/followers",
+        "following_url": "https://api.github.com/users/wildcard/following{/other_user}",
+        "gists_url": "https://api.github.com/users/wildcard/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/wildcard/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/wildcard/subscriptions",
+        "organizations_url": "https://api.github.com/users/wildcard/orgs",
+        "repos_url": "https://api.github.com/users/wildcard/repos",
+        "events_url": "https://api.github.com/users/wildcard/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/wildcard/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+        {
+          "url": "https://api.github.com/repos/wildcard/ReCaptcha-ASP.NET-MVC/labels/enhancement",
+          "name": "enhancement",
+          "color": "84b6eb"
+        },
+        {
+          "url": "https://api.github.com/repos/wildcard/ReCaptcha-ASP.NET-MVC/labels/first-timers-only",
+          "name": "first-timers-only",
+          "color": "5319e7"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "milestone": null,
+      "comments": 0,
+      "created_at": "2015-09-04T00:45:55Z",
+      "updated_at": "2015-10-05T22:29:44Z",
+      "closed_at": null,
+      "body": "Use https://github.com/fsharp/FAKE\r\nlike https://github.com/octokit/octokit.net",
+      "score": 1.0
+    },
+    {
+      "url": "https://api.github.com/repos/shanselman/firsttimersonly/issues/5",
+      "labels_url": "https://api.github.com/repos/shanselman/firsttimersonly/issues/5/labels{/name}",
+      "comments_url": "https://api.github.com/repos/shanselman/firsttimersonly/issues/5/comments",
+      "events_url": "https://api.github.com/repos/shanselman/firsttimersonly/issues/5/events",
+      "html_url": "https://github.com/shanselman/firsttimersonly/issues/5",
+      "id": 100136548,
+      "number": 5,
+      "title": "Fix one of our spelling errors",
+      "user": {
+        "login": "shanselman",
+        "id": 2892,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2892?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/shanselman",
+        "html_url": "https://github.com/shanselman",
+        "followers_url": "https://api.github.com/users/shanselman/followers",
+        "following_url": "https://api.github.com/users/shanselman/following{/other_user}",
+        "gists_url": "https://api.github.com/users/shanselman/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/shanselman/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/shanselman/subscriptions",
+        "organizations_url": "https://api.github.com/users/shanselman/orgs",
+        "repos_url": "https://api.github.com/users/shanselman/repos",
+        "events_url": "https://api.github.com/users/shanselman/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/shanselman/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+        {
+          "url": "https://api.github.com/repos/shanselman/firsttimersonly/labels/first-timers-only",
+          "name": "first-timers-only",
+          "color": "0052cc"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "milestone": null,
+      "comments": 3,
+      "created_at": "2015-08-10T18:30:46Z",
+      "updated_at": "2015-12-06T13:21:23Z",
+      "closed_at": null,
+      "body": "",
+      "score": 1.0
+    },
+    {
+      "url": "https://api.github.com/repos/Kentico/ADImportService/issues/5",
+      "labels_url": "https://api.github.com/repos/Kentico/ADImportService/issues/5/labels{/name}",
+      "comments_url": "https://api.github.com/repos/Kentico/ADImportService/issues/5/comments",
+      "events_url": "https://api.github.com/repos/Kentico/ADImportService/issues/5/events",
+      "html_url": "https://github.com/Kentico/ADImportService/issues/5",
+      "id": 99449191,
+      "number": 5,
+      "title": "Refactor UserExists() methods",
+      "user": {
+        "login": "petrsvihlik",
+        "id": 9810625,
+        "avatar_url": "https://avatars.githubusercontent.com/u/9810625?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/petrsvihlik",
+        "html_url": "https://github.com/petrsvihlik",
+        "followers_url": "https://api.github.com/users/petrsvihlik/followers",
+        "following_url": "https://api.github.com/users/petrsvihlik/following{/other_user}",
+        "gists_url": "https://api.github.com/users/petrsvihlik/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/petrsvihlik/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/petrsvihlik/subscriptions",
+        "organizations_url": "https://api.github.com/users/petrsvihlik/orgs",
+        "repos_url": "https://api.github.com/users/petrsvihlik/repos",
+        "events_url": "https://api.github.com/users/petrsvihlik/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/petrsvihlik/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+        {
+          "url": "https://api.github.com/repos/Kentico/ADImportService/labels/first-timers-only",
+          "name": "first-timers-only",
+          "color": "5319e7"
+        },
+        {
+          "url": "https://api.github.com/repos/Kentico/ADImportService/labels/idea",
+          "name": "idea",
+          "color": "fbca04"
+        },
+        {
+          "url": "https://api.github.com/repos/Kentico/ADImportService/labels/up-for-grabs",
+          "name": "up-for-grabs",
+          "color": "5319e7"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "milestone": null,
+      "comments": 0,
+      "created_at": "2015-08-06T14:29:03Z",
+      "updated_at": "2015-11-06T09:47:50Z",
+      "closed_at": null,
+      "body": "This is a simple task that is meant to be picked up by newcomers. Check out http://www.firsttimersonly.com/.\r\n\r\nSteps to be taken:\r\n- [fork the repository](https://help.github.com/articles/fork-a-repo/)\r\n- clone it to your local machine, you can use [Visual Studio](http://www.malgreve.net/2014/06/17/cloning-getting-code-from-git-repository-to-visual-studio/), [GitHub desktop](https://help.github.com/desktop/guides/contributing/cloning-a-repository-from-github-desktop/) or [command line](https://help.github.com/articles/cloning-a-repository/)\r\n  - we recommend using [GitHub extension for Visual Studio](https://visualstudio.github.com/)\r\n- open your local clone with Visual Studio\r\n- adjust the `RestSender.UserExists(Guid guid)` method so that it doesn't query `/rest/cms.user/all` but `/rest/cms.user/<guid>` instead (see the [documentation](https://docs.kentico.com/display/K82/Getting+data+using+REST))\r\n- check whether your code complies with our [contribution guidelines](https://github.com/Kentico/Home/blob/master/CONTRIBUTING.md)\r\n- push your changes to your fork (VS->Team Explorer->Changes->Commit&Sync)\r\n- create a PR and include Fixes #5 in the message\r\n\r\nWe'll review the change and either merge right away it or suggest potential changes.\r\nIf you have any questions feel free to ask in the repository chat [![Join the chat at https://gitter.im/Kentico/ADImportService](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Kentico/ADImportService?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+      "score": 1.0
+    },
+    {
+      "url": "https://api.github.com/repos/wildcard/ReCaptcha-ASP.NET-MVC/issues/2",
+      "labels_url": "https://api.github.com/repos/wildcard/ReCaptcha-ASP.NET-MVC/issues/2/labels{/name}",
+      "comments_url": "https://api.github.com/repos/wildcard/ReCaptcha-ASP.NET-MVC/issues/2/comments",
+      "events_url": "https://api.github.com/repos/wildcard/ReCaptcha-ASP.NET-MVC/issues/2/events",
+      "html_url": "https://github.com/wildcard/ReCaptcha-ASP.NET-MVC/issues/2",
+      "id": 98541430,
+      "number": 2,
+      "title": "change to explicit render",
+      "user": {
+        "login": "wildcard",
+        "id": 2939405,
+        "avatar_url": "https://avatars.githubusercontent.com/u/2939405?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/wildcard",
+        "html_url": "https://github.com/wildcard",
+        "followers_url": "https://api.github.com/users/wildcard/followers",
+        "following_url": "https://api.github.com/users/wildcard/following{/other_user}",
+        "gists_url": "https://api.github.com/users/wildcard/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/wildcard/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/wildcard/subscriptions",
+        "organizations_url": "https://api.github.com/users/wildcard/orgs",
+        "repos_url": "https://api.github.com/users/wildcard/repos",
+        "events_url": "https://api.github.com/users/wildcard/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/wildcard/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+        {
+          "url": "https://api.github.com/repos/wildcard/ReCaptcha-ASP.NET-MVC/labels/first-timers-only",
+          "name": "first-timers-only",
+          "color": "5319e7"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "milestone": null,
+      "comments": 0,
+      "created_at": "2015-08-01T14:37:04Z",
+      "updated_at": "2015-10-05T22:25:30Z",
+      "closed_at": null,
+      "body": "As explained [here](https://developers.google.com/recaptcha/docs/display?hl=en#explicit_render)\r\n\r\n change ```@helper GetHtml(...)``` in ReCaptcha.cshtml",
+      "score": 1.0
+    },
+    {
+      "url": "https://api.github.com/repos/Kentico/KInspector/issues/19",
+      "labels_url": "https://api.github.com/repos/Kentico/KInspector/issues/19/labels{/name}",
+      "comments_url": "https://api.github.com/repos/Kentico/KInspector/issues/19/comments",
+      "events_url": "https://api.github.com/repos/Kentico/KInspector/issues/19/events",
+      "html_url": "https://github.com/Kentico/KInspector/issues/19",
+      "id": 97050847,
+      "number": 19,
+      "title": "Hash salt for macro signatures",
+      "user": {
+        "login": "ondrejsevcik",
+        "id": 4136929,
+        "avatar_url": "https://avatars.githubusercontent.com/u/4136929?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ondrejsevcik",
+        "html_url": "https://github.com/ondrejsevcik",
+        "followers_url": "https://api.github.com/users/ondrejsevcik/followers",
+        "following_url": "https://api.github.com/users/ondrejsevcik/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ondrejsevcik/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ondrejsevcik/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ondrejsevcik/subscriptions",
+        "organizations_url": "https://api.github.com/users/ondrejsevcik/orgs",
+        "repos_url": "https://api.github.com/users/ondrejsevcik/repos",
+        "events_url": "https://api.github.com/users/ondrejsevcik/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ondrejsevcik/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+        {
+          "url": "https://api.github.com/repos/Kentico/KInspector/labels/feature",
+          "name": "feature",
+          "color": "009800"
+        },
+        {
+          "url": "https://api.github.com/repos/Kentico/KInspector/labels/first-timers-only",
+          "name": "first-timers-only",
+          "color": "5319e7"
+        },
+        {
+          "url": "https://api.github.com/repos/Kentico/KInspector/labels/up-for-grabs",
+          "name": "up-for-grabs",
+          "color": "5319e7"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "milestone": null,
+      "comments": 0,
+      "created_at": "2015-07-24T13:17:11Z",
+      "updated_at": "2015-11-06T09:47:12Z",
+      "closed_at": null,
+      "body": "This is a simple task that is meant to be picked up by newcomers. Check out http://www.firsttimersonly.com/.\r\n\r\nSteps to be taken:\r\n- [fork the repository](https://help.github.com/articles/fork-a-repo/)\r\n- clone it to your local machine, you can use [Visual Studio](http://www.malgreve.net/2014/06/17/cloning-getting-code-from-git-repository-to-visual-studio/), [GitHub desktop](https://help.github.com/desktop/guides/contributing/cloning-a-repository-from-github-desktop/) or [command line](https://help.github.com/articles/cloning-a-repository/)\r\n  - we recommend using [GitHub extension for Visual Studio](https://visualstudio.github.com/)\r\n- open your local clone with Visual Studio\r\n- [create a new module](https://github.com/Kentico/KInspector/wiki/Writing-a-custom-module)\r\n- implement the **logic**:\r\n  - check whether the web.config contains [`CMSHashStringSalt`](https://docs.kentico.com/display/K82/Working+with+macro+signatures#Workingwithmacrosignatures-Configuringthehashsaltformacrosignatures) appSetting (we suggest using `ConfigurationManager` to do that), if not inform the user by returning `ModuleResults` with status Error\r\n- check whether your code complies with our [contribution guidelines](https://github.com/Kentico/Home/blob/master/CONTRIBUTING.md)\r\n- push your changes to your fork (VS->Team Explorer->Changes->Commit&Sync)\r\n- create a PR and include Fixes #19 in the message\r\n\r\nWe'll review the change and either merge right away it or suggest potential changes.\r\nIf you have any questions feel free to ask in the repository chat [![Join the chat at https://gitter.im/Kentico/KInspector](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Kentico/KInspector?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+      "score": 1.0
+    },
+    {
+      "url": "https://api.github.com/repos/Kentico/KInspector/issues/18",
+      "labels_url": "https://api.github.com/repos/Kentico/KInspector/issues/18/labels{/name}",
+      "comments_url": "https://api.github.com/repos/Kentico/KInspector/issues/18/comments",
+      "events_url": "https://api.github.com/repos/Kentico/KInspector/issues/18/events",
+      "html_url": "https://github.com/Kentico/KInspector/issues/18",
+      "id": 97050450,
+      "number": 18,
+      "title": "SSL in administration",
+      "user": {
+        "login": "ondrejsevcik",
+        "id": 4136929,
+        "avatar_url": "https://avatars.githubusercontent.com/u/4136929?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ondrejsevcik",
+        "html_url": "https://github.com/ondrejsevcik",
+        "followers_url": "https://api.github.com/users/ondrejsevcik/followers",
+        "following_url": "https://api.github.com/users/ondrejsevcik/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ondrejsevcik/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ondrejsevcik/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ondrejsevcik/subscriptions",
+        "organizations_url": "https://api.github.com/users/ondrejsevcik/orgs",
+        "repos_url": "https://api.github.com/users/ondrejsevcik/repos",
+        "events_url": "https://api.github.com/users/ondrejsevcik/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ondrejsevcik/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+        {
+          "url": "https://api.github.com/repos/Kentico/KInspector/labels/feature",
+          "name": "feature",
+          "color": "009800"
+        },
+        {
+          "url": "https://api.github.com/repos/Kentico/KInspector/labels/first-timers-only",
+          "name": "first-timers-only",
+          "color": "5319e7"
+        },
+        {
+          "url": "https://api.github.com/repos/Kentico/KInspector/labels/up-for-grabs",
+          "name": "up-for-grabs",
+          "color": "5319e7"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "milestone": null,
+      "comments": 0,
+      "created_at": "2015-07-24T13:15:18Z",
+      "updated_at": "2015-11-06T09:47:05Z",
+      "closed_at": null,
+      "body": "This is a simple task that is meant to be picked up by newcomers. Check out http://www.firsttimersonly.com/.\r\n\r\nSteps to be taken:\r\n- [fork the repository](https://help.github.com/articles/fork-a-repo/)\r\n- clone it to your local machine, you can use [Visual Studio](http://www.malgreve.net/2014/06/17/cloning-getting-code-from-git-repository-to-visual-studio/), [GitHub desktop](https://help.github.com/desktop/guides/contributing/cloning-a-repository-from-github-desktop/) or [command line](https://help.github.com/articles/cloning-a-repository/)\r\n  - we recommend using [GitHub extension for Visual Studio](https://visualstudio.github.com/)\r\n- open your local clone with Visual Studio\r\n- [create a new module](https://github.com/Kentico/KInspector/wiki/Writing-a-custom-module)\r\n- implement the **logic**:\r\n  - check whether the `CMSUseSSLForAdministrationInterface` key in the `CMS_SettingsKey` table is true (if not, inform user by returning `ModuleResults` with status warning)\r\n- check whether your code complies with our [contribution guidelines](https://github.com/Kentico/Home/blob/master/CONTRIBUTING.md)\r\n- push your changes to your fork (VS->Team Explorer->Changes->Commit&Sync)\r\n- create a PR and include Fixes #18 in the message\r\n\r\nWe'll review the change and either merge right away it or suggest potential changes.\r\nIf you have any questions feel free to ask in the repository chat [![Join the chat at https://gitter.im/Kentico/KInspector](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Kentico/KInspector?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+      "score": 1.0
+    },
+    {
+      "url": "https://api.github.com/repos/Kentico/KInspector/issues/17",
+      "labels_url": "https://api.github.com/repos/Kentico/KInspector/issues/17/labels{/name}",
+      "comments_url": "https://api.github.com/repos/Kentico/KInspector/issues/17/comments",
+      "events_url": "https://api.github.com/repos/Kentico/KInspector/issues/17/events",
+      "html_url": "https://github.com/Kentico/KInspector/issues/17",
+      "id": 97049699,
+      "number": 17,
+      "title": "Check for password policy/encrtyption",
+      "user": {
+        "login": "ondrejsevcik",
+        "id": 4136929,
+        "avatar_url": "https://avatars.githubusercontent.com/u/4136929?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ondrejsevcik",
+        "html_url": "https://github.com/ondrejsevcik",
+        "followers_url": "https://api.github.com/users/ondrejsevcik/followers",
+        "following_url": "https://api.github.com/users/ondrejsevcik/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ondrejsevcik/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ondrejsevcik/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ondrejsevcik/subscriptions",
+        "organizations_url": "https://api.github.com/users/ondrejsevcik/orgs",
+        "repos_url": "https://api.github.com/users/ondrejsevcik/repos",
+        "events_url": "https://api.github.com/users/ondrejsevcik/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ondrejsevcik/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+        {
+          "url": "https://api.github.com/repos/Kentico/KInspector/labels/bug",
+          "name": "bug",
+          "color": "fc2929"
+        },
+        {
+          "url": "https://api.github.com/repos/Kentico/KInspector/labels/first-timers-only",
+          "name": "first-timers-only",
+          "color": "5319e7"
+        },
+        {
+          "url": "https://api.github.com/repos/Kentico/KInspector/labels/up-for-grabs",
+          "name": "up-for-grabs",
+          "color": "5319e7"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "milestone": null,
+      "comments": 4,
+      "created_at": "2015-07-24T13:11:36Z",
+      "updated_at": "2016-01-11T07:16:41Z",
+      "closed_at": null,
+      "body": "This is a simple task that is meant to be picked up by newcomers. Check out http://www.firsttimersonly.com/.\r\n\r\nSteps to be taken:\r\n- [fork the repository](https://help.github.com/articles/fork-a-repo/)\r\n- clone it to your local machine, you can use [Visual Studio](http://www.malgreve.net/2014/06/17/cloning-getting-code-from-git-repository-to-visual-studio/), [GitHub desktop](https://help.github.com/desktop/guides/contributing/cloning-a-repository-from-github-desktop/) or [command line](https://help.github.com/articles/cloning-a-repository/)\r\n  - we recommend using [GitHub extension for Visual Studio](https://visualstudio.github.com/)\r\n- open your local clone with Visual Studio\r\n- [create a new module](https://github.com/Kentico/KInspector/wiki/Writing-a-custom-module)\r\n- implement the **logic** which consists of 2 checks:\r\n  - check whether the `CMSUsePasswordPolicy` keys in the `CMS_SettingsKey` table are set to `true`. if not, return `ModuleResults` with status Warning (see [documentation](https://docs.kentico.com/display/K82/Password+strength+policy+and+its+enforcement))\r\n  - check whether the `CMSPasswordFormat` key in the `CMS_SettingsKey` table is set to `SHA2SALT`. if not, return `ModuleResults` with status Error (see [documentation](https://docs.kentico.com/display/K82/Password+encryption+in+database))\r\n- check whether your code complies with our [contribution guidelines](https://github.com/Kentico/Home/blob/master/CONTRIBUTING.md)\r\n- push your changes to your fork (VS->Team Explorer->Changes->Commit&Sync)\r\n- create a PR and include Fixes #17 in the message\r\n\r\nWe'll review the change and either merge right away it or suggest potential changes.\r\nIf you have any questions feel free to ask in the repository chat [![Join the chat at https://gitter.im/Kentico/KInspector](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Kentico/KInspector?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+      "score": 1.0
+    },
+    {
+      "url": "https://api.github.com/repos/Kentico/KInspector/issues/16",
+      "labels_url": "https://api.github.com/repos/Kentico/KInspector/issues/16/labels{/name}",
+      "comments_url": "https://api.github.com/repos/Kentico/KInspector/issues/16/comments",
+      "events_url": "https://api.github.com/repos/Kentico/KInspector/issues/16/events",
+      "html_url": "https://github.com/Kentico/KInspector/issues/16",
+      "id": 97049325,
+      "number": 16,
+      "title": "Check for flood protection",
+      "user": {
+        "login": "ondrejsevcik",
+        "id": 4136929,
+        "avatar_url": "https://avatars.githubusercontent.com/u/4136929?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ondrejsevcik",
+        "html_url": "https://github.com/ondrejsevcik",
+        "followers_url": "https://api.github.com/users/ondrejsevcik/followers",
+        "following_url": "https://api.github.com/users/ondrejsevcik/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ondrejsevcik/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ondrejsevcik/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ondrejsevcik/subscriptions",
+        "organizations_url": "https://api.github.com/users/ondrejsevcik/orgs",
+        "repos_url": "https://api.github.com/users/ondrejsevcik/repos",
+        "events_url": "https://api.github.com/users/ondrejsevcik/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ondrejsevcik/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+        {
+          "url": "https://api.github.com/repos/Kentico/KInspector/labels/feature",
+          "name": "feature",
+          "color": "009800"
+        },
+        {
+          "url": "https://api.github.com/repos/Kentico/KInspector/labels/first-timers-only",
+          "name": "first-timers-only",
+          "color": "5319e7"
+        },
+        {
+          "url": "https://api.github.com/repos/Kentico/KInspector/labels/up-for-grabs",
+          "name": "up-for-grabs",
+          "color": "5319e7"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "milestone": null,
+      "comments": 0,
+      "created_at": "2015-07-24T13:09:42Z",
+      "updated_at": "2015-11-06T09:46:53Z",
+      "closed_at": null,
+      "body": "This is a simple task that is meant to be picked up by newcomers. Check out http://www.firsttimersonly.com/.\r\n\r\nSteps to be taken:\r\n- [fork the repository](https://help.github.com/articles/fork-a-repo/)\r\n- clone it to your local machine, you can use [Visual Studio](http://www.malgreve.net/2014/06/17/cloning-getting-code-from-git-repository-to-visual-studio/), [GitHub desktop](https://help.github.com/desktop/guides/contributing/cloning-a-repository-from-github-desktop/) or [command line](https://help.github.com/articles/cloning-a-repository/)\r\n  - we recommend using [GitHub extension for Visual Studio](https://visualstudio.github.com/)\r\n- open your local clone with Visual Studio\r\n- [create a new module](https://github.com/Kentico/KInspector/wiki/Writing-a-custom-module)\r\n- implement the **logic**:\r\n  - check whether the `CMSFloodProtectionEnabled` and `CMSChatEnableFloodProtection` keys in the `CMS_SettingsKey` table are set to `true`. if not, return `ModuleResults` with status Warning (see [documentation](https://docs.kentico.com/display/K82/Flood+protection))\r\n- check whether your code complies with our [contribution guidelines](https://github.com/Kentico/Home/blob/master/CONTRIBUTING.md)\r\n- push your changes to your fork (VS->Team Explorer->Changes->Commit&Sync)\r\n- create a PR and include Fixes #16 in the message\r\n\r\nWe'll review the change and either merge right away it or suggest potential changes.\r\nIf you have any questions feel free to ask in the repository chat [![Join the chat at https://gitter.im/Kentico/KInspector](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Kentico/KInspector?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+      "score": 1.0
+    },
+    {
+      "url": "https://api.github.com/repos/Kentico/KInspector/issues/15",
+      "labels_url": "https://api.github.com/repos/Kentico/KInspector/issues/15/labels{/name}",
+      "comments_url": "https://api.github.com/repos/Kentico/KInspector/issues/15/comments",
+      "events_url": "https://api.github.com/repos/Kentico/KInspector/issues/15/events",
+      "html_url": "https://github.com/Kentico/KInspector/issues/15",
+      "id": 97049090,
+      "number": 15,
+      "title": "Check for enabled ClickJacking protection",
+      "user": {
+        "login": "ondrejsevcik",
+        "id": 4136929,
+        "avatar_url": "https://avatars.githubusercontent.com/u/4136929?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ondrejsevcik",
+        "html_url": "https://github.com/ondrejsevcik",
+        "followers_url": "https://api.github.com/users/ondrejsevcik/followers",
+        "following_url": "https://api.github.com/users/ondrejsevcik/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ondrejsevcik/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ondrejsevcik/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ondrejsevcik/subscriptions",
+        "organizations_url": "https://api.github.com/users/ondrejsevcik/orgs",
+        "repos_url": "https://api.github.com/users/ondrejsevcik/repos",
+        "events_url": "https://api.github.com/users/ondrejsevcik/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ondrejsevcik/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+        {
+          "url": "https://api.github.com/repos/Kentico/KInspector/labels/feature",
+          "name": "feature",
+          "color": "009800"
+        },
+        {
+          "url": "https://api.github.com/repos/Kentico/KInspector/labels/first-timers-only",
+          "name": "first-timers-only",
+          "color": "5319e7"
+        },
+        {
+          "url": "https://api.github.com/repos/Kentico/KInspector/labels/up-for-grabs",
+          "name": "up-for-grabs",
+          "color": "5319e7"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "milestone": null,
+      "comments": 0,
+      "created_at": "2015-07-24T13:08:37Z",
+      "updated_at": "2015-11-06T09:46:43Z",
+      "closed_at": null,
+      "body": "This is a simple task that is meant to be picked up by newcomers. Check out http://www.firsttimersonly.com/.\r\n\r\nSteps to be taken:\r\n- [fork the repository](https://help.github.com/articles/fork-a-repo/)\r\n- clone it to your local machine, you can use [Visual Studio](http://www.malgreve.net/2014/06/17/cloning-getting-code-from-git-repository-to-visual-studio/), [GitHub desktop](https://help.github.com/desktop/guides/contributing/cloning-a-repository-from-github-desktop/) or [command line](https://help.github.com/articles/cloning-a-repository/)\r\n  - we recommend using [GitHub extension for Visual Studio](https://visualstudio.github.com/)\r\n- open your local clone with Visual Studio\r\n- [create a new module](https://github.com/Kentico/KInspector/wiki/Writing-a-custom-module)\r\n- implement the **logic**:\r\n  - check whether the `appSettings` section of the web.config doesn't contain `CMSXFrameOptionsExcluded` (use `ConfigurationManager` to do that)\r\n  - in case it does inform the user by returning `ModuleResults` with status Warning (https://docs.kentico.com/display/K82/Clickjacking)\r\n- check whether your code complies with our [contribution guidelines](https://github.com/Kentico/Home/blob/master/CONTRIBUTING.md)\r\n- push your changes to your fork (VS->Team Explorer->Changes->Commit&Sync)\r\n- create a PR and include Fixes #15 in the message\r\n\r\nWe'll review the change and either merge right away it or suggest potential changes.\r\nIf you have any questions feel free to ask in the repository chat [![Join the chat at https://gitter.im/Kentico/KInspector](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Kentico/KInspector?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+      "score": 1.0
+    },
+    {
+      "url": "https://api.github.com/repos/Kentico/KInspector/issues/9",
+      "labels_url": "https://api.github.com/repos/Kentico/KInspector/issues/9/labels{/name}",
+      "comments_url": "https://api.github.com/repos/Kentico/KInspector/issues/9/comments",
+      "events_url": "https://api.github.com/repos/Kentico/KInspector/issues/9/events",
+      "html_url": "https://github.com/Kentico/KInspector/issues/9",
+      "id": 96369447,
+      "number": 9,
+      "title": "Check for enabled debug",
+      "user": {
+        "login": "ondrejsevcik",
+        "id": 4136929,
+        "avatar_url": "https://avatars.githubusercontent.com/u/4136929?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ondrejsevcik",
+        "html_url": "https://github.com/ondrejsevcik",
+        "followers_url": "https://api.github.com/users/ondrejsevcik/followers",
+        "following_url": "https://api.github.com/users/ondrejsevcik/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ondrejsevcik/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ondrejsevcik/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ondrejsevcik/subscriptions",
+        "organizations_url": "https://api.github.com/users/ondrejsevcik/orgs",
+        "repos_url": "https://api.github.com/users/ondrejsevcik/repos",
+        "events_url": "https://api.github.com/users/ondrejsevcik/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ondrejsevcik/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+        {
+          "url": "https://api.github.com/repos/Kentico/KInspector/labels/feature",
+          "name": "feature",
+          "color": "009800"
+        },
+        {
+          "url": "https://api.github.com/repos/Kentico/KInspector/labels/first-timers-only",
+          "name": "first-timers-only",
+          "color": "5319e7"
+        },
+        {
+          "url": "https://api.github.com/repos/Kentico/KInspector/labels/up-for-grabs",
+          "name": "up-for-grabs",
+          "color": "5319e7"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "milestone": null,
+      "comments": 0,
+      "created_at": "2015-07-21T17:14:11Z",
+      "updated_at": "2015-11-06T09:46:33Z",
+      "closed_at": null,
+      "body": "This is a simple task that is meant to be picked up by newcomers. Check out http://www.firsttimersonly.com/.\r\n\r\nSteps to be taken:\r\n- [fork the repository](https://help.github.com/articles/fork-a-repo/)\r\n- clone it to your local machine, you can use [Visual Studio](http://www.malgreve.net/2014/06/17/cloning-getting-code-from-git-repository-to-visual-studio/), [GitHub desktop](https://help.github.com/desktop/guides/contributing/cloning-a-repository-from-github-desktop/) or [command line](https://help.github.com/articles/cloning-a-repository/)\r\n  - we recommend using [GitHub extension for Visual Studio](https://visualstudio.github.com/)\r\n- open your local clone with Visual Studio\r\n- [create a new module](https://github.com/Kentico/KInspector/wiki/Writing-a-custom-module)\r\n- implement the **logic** which consists of 2 checks:\r\n  - check whether the web.config doesn't contain `debug=\"true\"` in the [compilation element](https://msdn.microsoft.com/en-us/library/e8z01xdh.aspx?f=255&MSPPError=-2147217396) (we suggest using `ConfigurationManager` to do that)\r\n  - check whether all boolean records in `CMS_SettingsKey` whose `KeyName` starts with CMSDebug are disabled (their `KeyValue` is false)\r\n  - if any check fails inform the user by returning `ModuleResults` with status Error (debug should be disabled on production instances)\r\n- check whether your code complies with our [contribution guidelines](https://github.com/Kentico/Home/blob/master/CONTRIBUTING.md)\r\n- push your changes to your fork (VS->Team Explorer->Changes->Commit&Sync)\r\n- create a PR and include Fixes #9 in the message\r\n\r\nWe'll review the change and either merge right away it or suggest potential changes.\r\nIf you have any questions feel free to ask in the repository chat [![Join the chat at https://gitter.im/Kentico/KInspector](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Kentico/KInspector?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+      "score": 1.0
+    },
+    {
+      "url": "https://api.github.com/repos/Kentico/KInspector/issues/7",
+      "labels_url": "https://api.github.com/repos/Kentico/KInspector/issues/7/labels{/name}",
+      "comments_url": "https://api.github.com/repos/Kentico/KInspector/issues/7/comments",
+      "events_url": "https://api.github.com/repos/Kentico/KInspector/issues/7/events",
+      "html_url": "https://github.com/Kentico/KInspector/issues/7",
+      "id": 96368582,
+      "number": 7,
+      "title": "Check for disabled web parts",
+      "user": {
+        "login": "ondrejsevcik",
+        "id": 4136929,
+        "avatar_url": "https://avatars.githubusercontent.com/u/4136929?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ondrejsevcik",
+        "html_url": "https://github.com/ondrejsevcik",
+        "followers_url": "https://api.github.com/users/ondrejsevcik/followers",
+        "following_url": "https://api.github.com/users/ondrejsevcik/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ondrejsevcik/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ondrejsevcik/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ondrejsevcik/subscriptions",
+        "organizations_url": "https://api.github.com/users/ondrejsevcik/orgs",
+        "repos_url": "https://api.github.com/users/ondrejsevcik/repos",
+        "events_url": "https://api.github.com/users/ondrejsevcik/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ondrejsevcik/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+        {
+          "url": "https://api.github.com/repos/Kentico/KInspector/labels/feature",
+          "name": "feature",
+          "color": "009800"
+        },
+        {
+          "url": "https://api.github.com/repos/Kentico/KInspector/labels/first-timers-only",
+          "name": "first-timers-only",
+          "color": "5319e7"
+        },
+        {
+          "url": "https://api.github.com/repos/Kentico/KInspector/labels/up-for-grabs",
+          "name": "up-for-grabs",
+          "color": "5319e7"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "milestone": null,
+      "comments": 0,
+      "created_at": "2015-07-21T17:09:43Z",
+      "updated_at": "2015-11-06T09:46:19Z",
+      "closed_at": null,
+      "body": "This is a simple task that is meant to be picked up by newcomers. Check out http://www.firsttimersonly.com/.\r\n\r\nSteps to be taken:\r\n- [fork the repository](https://help.github.com/articles/fork-a-repo/)\r\n- clone it to your local machine, you can use [Visual Studio](http://www.malgreve.net/2014/06/17/cloning-getting-code-from-git-repository-to-visual-studio/), [GitHub desktop](https://help.github.com/desktop/guides/contributing/cloning-a-repository-from-github-desktop/) or [command line](https://help.github.com/articles/cloning-a-repository/)\r\n  - we recommend using [GitHub extension for Visual Studio](https://visualstudio.github.com/)\r\n- open your local clone with Visual Studio\r\n- [create a new module](https://github.com/Kentico/KInspector/wiki/Writing-a-custom-module)\r\n- implement the **logic**:\r\n  - search the `PageTemplateWebParts` column in the `CMS_PageTemplate` table for `<property name=\"visible\">False</property>`\r\n  - if you find any records inform the user by returning `ModuleResults` with status Warning and a table with results\r\n- check whether your code complies with our [contribution guidelines](https://github.com/Kentico/Home/blob/master/CONTRIBUTING.md)\r\n- push your changes to your fork (VS->Team Explorer->Changes->Commit&Sync)\r\n- create a PR and include Fixes #7 in the message\r\n\r\nWe'll review the change and either merge right away it or suggest potential changes.\r\nIf you have any questions feel free to ask in the repository chat [![Join the chat at https://gitter.im/Kentico/KInspector](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Kentico/KInspector?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+      "score": 1.0
+    },
+    {
+      "url": "https://api.github.com/repos/OpenGeoscience/geojs/issues/292",
+      "labels_url": "https://api.github.com/repos/OpenGeoscience/geojs/issues/292/labels{/name}",
+      "comments_url": "https://api.github.com/repos/OpenGeoscience/geojs/issues/292/comments",
+      "events_url": "https://api.github.com/repos/OpenGeoscience/geojs/issues/292/events",
+      "html_url": "https://github.com/OpenGeoscience/geojs/issues/292",
+      "id": 54471209,
+      "number": 292,
+      "title": "Add d3 polygon feature",
+      "user": {
+        "login": "jbeezley",
+        "id": 31890,
+        "avatar_url": "https://avatars.githubusercontent.com/u/31890?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/jbeezley",
+        "html_url": "https://github.com/jbeezley",
+        "followers_url": "https://api.github.com/users/jbeezley/followers",
+        "following_url": "https://api.github.com/users/jbeezley/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jbeezley/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/jbeezley/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jbeezley/subscriptions",
+        "organizations_url": "https://api.github.com/users/jbeezley/orgs",
+        "repos_url": "https://api.github.com/users/jbeezley/repos",
+        "events_url": "https://api.github.com/users/jbeezley/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/jbeezley/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+        {
+          "url": "https://api.github.com/repos/OpenGeoscience/geojs/labels/first-timers-only",
+          "name": "first-timers-only",
+          "color": "fbca04"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "milestone": null,
+      "comments": 0,
+      "created_at": "2015-01-15T16:37:05Z",
+      "updated_at": "2015-09-12T15:35:32Z",
+      "closed_at": null,
+      "body": "",
+      "score": 1.0
+    },
+    {
+      "url": "https://api.github.com/repos/code-cracker/code-cracker/issues/132",
+      "labels_url": "https://api.github.com/repos/code-cracker/code-cracker/issues/132/labels{/name}",
+      "comments_url": "https://api.github.com/repos/code-cracker/code-cracker/issues/132/comments",
+      "events_url": "https://api.github.com/repos/code-cracker/code-cracker/issues/132/events",
+      "html_url": "https://github.com/code-cracker/code-cracker/issues/132",
+      "id": 51005679,
+      "number": 132,
+      "title": "Verifies if \"reference type\" parameters are null",
+      "user": {
+        "login": "ElemarJR",
+        "id": 105970,
+        "avatar_url": "https://avatars.githubusercontent.com/u/105970?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ElemarJR",
+        "html_url": "https://github.com/ElemarJR",
+        "followers_url": "https://api.github.com/users/ElemarJR/followers",
+        "following_url": "https://api.github.com/users/ElemarJR/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ElemarJR/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ElemarJR/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ElemarJR/subscriptions",
+        "organizations_url": "https://api.github.com/users/ElemarJR/orgs",
+        "repos_url": "https://api.github.com/users/ElemarJR/repos",
+        "events_url": "https://api.github.com/users/ElemarJR/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ElemarJR/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+        {
+          "url": "https://api.github.com/repos/code-cracker/code-cracker/labels/1%20-%20Ready",
+          "name": "1 - Ready",
+          "color": "CCCCCC"
+        },
+        {
+          "url": "https://api.github.com/repos/code-cracker/code-cracker/labels/analyzer",
+          "name": "analyzer",
+          "color": "0052cc"
+        },
+        {
+          "url": "https://api.github.com/repos/code-cracker/code-cracker/labels/C%23",
+          "name": "C#",
+          "color": "5319e7"
+        },
+        {
+          "url": "https://api.github.com/repos/code-cracker/code-cracker/labels/code-fix",
+          "name": "code-fix",
+          "color": "207de5"
+        },
+        {
+          "url": "https://api.github.com/repos/code-cracker/code-cracker/labels/enhancement",
+          "name": "enhancement",
+          "color": "84b6eb"
+        },
+        {
+          "url": "https://api.github.com/repos/code-cracker/code-cracker/labels/first-timers-only",
+          "name": "first-timers-only",
+          "color": "0052cc"
+        },
+        {
+          "url": "https://api.github.com/repos/code-cracker/code-cracker/labels/VB",
+          "name": "VB",
+          "color": "d4c5f9"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "milestone": null,
+      "comments": 4,
+      "created_at": "2014-12-04T17:47:17Z",
+      "updated_at": "2015-12-02T13:43:53Z",
+      "closed_at": null,
+      "body": "````csharp\r\nvoid Foo(Fee a)\r\n{\r\n}\r\n````\r\n\r\nbecomes\r\n\r\n````csharp\r\nvoid Foo(Fee a)\r\n{\r\n   if (a == null) throw new ArgumentNullException(nameof(a))\r\n}\r\n````\r\n\r\nStyle: `Refactoring`\r\nSeverity: `Hidden`\r\nId: `CC0078`",
+      "score": 1.0
+    },
+    {
+      "url": "https://api.github.com/repos/OpenGeoscience/geojs/issues/187",
+      "labels_url": "https://api.github.com/repos/OpenGeoscience/geojs/issues/187/labels{/name}",
+      "comments_url": "https://api.github.com/repos/OpenGeoscience/geojs/issues/187/comments",
+      "events_url": "https://api.github.com/repos/OpenGeoscience/geojs/issues/187/events",
+      "html_url": "https://github.com/OpenGeoscience/geojs/issues/187",
+      "id": 41880705,
+      "number": 187,
+      "title": "Create an example to show loading of a geotif ",
+      "user": {
+        "login": "aashish24",
+        "id": 146527,
+        "avatar_url": "https://avatars.githubusercontent.com/u/146527?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/aashish24",
+        "html_url": "https://github.com/aashish24",
+        "followers_url": "https://api.github.com/users/aashish24/followers",
+        "following_url": "https://api.github.com/users/aashish24/following{/other_user}",
+        "gists_url": "https://api.github.com/users/aashish24/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/aashish24/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/aashish24/subscriptions",
+        "organizations_url": "https://api.github.com/users/aashish24/orgs",
+        "repos_url": "https://api.github.com/users/aashish24/repos",
+        "events_url": "https://api.github.com/users/aashish24/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/aashish24/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+        {
+          "url": "https://api.github.com/repos/OpenGeoscience/geojs/labels/first-timers-only",
+          "name": "first-timers-only",
+          "color": "fbca04"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "milestone": null,
+      "comments": 0,
+      "created_at": "2014-09-03T23:45:12Z",
+      "updated_at": "2015-09-12T15:35:43Z",
+      "closed_at": null,
+      "body": "",
+      "score": 1.0
+    }
+  ]
+}

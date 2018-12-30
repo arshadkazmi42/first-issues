@@ -1,0 +1,5 @@
+tweepy
+Nose
+requests
+click
+colorama
