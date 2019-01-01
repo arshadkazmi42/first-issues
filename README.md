@@ -10,7 +10,7 @@ To use this bot,
 - Clone the repository
 - Create a `credentials.json` in root directory and add the details from the twitter account, on which you want the bot to tweet.
 
-```json
+```javascript
 // credentials.json
 
 {
