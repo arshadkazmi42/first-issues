@@ -1,2 +1,2 @@
-# first-issues
+# Good First Issues Bot :robot:
 First issues Bot
