@@ -50,6 +50,6 @@ This script will not tweet the fetched issues which are already exists in `db.js
 
 We are constantly working on improving this script and would love to get any types of contributions.
 If you have got any suggestions, drop your suggestion [here](https://github.com/arshadkazmi42/first-issues/issues/new).
-If you want to fix some existing bugs in the script, you can find open issues [here](https://github.com/arshadkamzi42/first-isues/issues)
+If you want to fix some existing bugs in the script, you can find open issues [here](https://github.com/arshadkazmi42/first-issues/issues)
 
 We are also working on building a contributing guide.
