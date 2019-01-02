@@ -56,7 +56,9 @@ We are also working on building a contributing guide.
 
 ## Supporters
 
-<a href="https://github.com/musically-ut"><img width=70 style=" border-radius: 50%; border-style: solid;border-width: 3px; border-color: #AFA6FF" src="https://avatars3.githubusercontent.com/u/502876?s=460&v=4"></a>
+[![Mark Wubben](https://github.com/musically-ut.png?size=100)](https://github.com/novemberborn) |
+---|---|---
+[Utkarsh Upadhyay ](https://github.com/musically-ut) |
 
 
 <a href="https://www.patreon.com/bePatron?u=15454240" target="_blank"><img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron!" height="41"></a>
