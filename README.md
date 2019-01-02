@@ -53,3 +53,7 @@ If you have got any suggestions, drop your suggestion [here](https://github.com/
 If you want to fix some existing bugs in the script, you can find open issues [here](https://github.com/arshadkazmi42/first-issues/issues)
 
 We are also working on building a contributing guide.
+
+<a href="https://www.patreon.com/bePatron?u=15454240" target="_blank"><img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron!" height="41"></a>
+
+Please consider donating, to keep our servers up and running 
