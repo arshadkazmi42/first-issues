@@ -5,9 +5,8 @@ This is inspired by [Utkarsh's](https://github.com/musically-ut) work on [first-
 
 You can follow the twitter account here [@first_issues](https://twitter.com/first_issues)
 
-You can get started here. 
 ## How to use
-Read our HOW_TO_USE guide [here](HOW_TO_USE.md).
+Read our how to use guide [here](HOW_TO_USE.md).
 
 ## Contributing
 - If you have got any suggestions, drop your suggestion [here](https://github.com/arshadkazmi42/first-issues/issues/new).

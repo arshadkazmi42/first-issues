@@ -20,12 +20,18 @@ To use this bot,
 
 Dont't know what these stand for? No problem, following are the steps. 
 
-1. Create a developer account in twitter and then create an app here which will give the TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET, TWITTER_APP_ACCESS_TOKEN, TWITTER_APP_TOKEN_SECRET. To proceed [click here](https://developer.twitter.com/en/apps).
-2. TWITTER_ACCOUNT_USERNAME can be found out by logging in to [Twitter](https://twitter.com) and clicking on profile.   
-3. TWITTER_ACCOUNT_ID can be found out [here](http://gettwitterid.com/).
+- Create a developer account in twitter and then create an app [here](https://developer.twitter.com/en/apps) which will give the following:
+  - TWITTER_CONSUMER_KEY, 
+  - TWITTER_CONSUMER_SECRET, 
+  - TWITTER_APP_ACCESS_TOKEN, 
+  - TWITTER_APP_TOKEN_SECRET
 
-- Change the label which you want to fetch from github [here](https://github.com/arshadkazmi42/first-issues/blob/master/first_timers/first_timers.py#L11).  You can add your labels which ever you want this bot to fetch.
-- Finally to run execute the script, use below command on command prompt
+- TWITTER_ACCOUNT_USERNAME can be found out by logging in to [Twitter](https://twitter.com) and clicking on profile.  
+ 
+- TWITTER_ACCOUNT_ID can be found out [here](http://gettwitterid.com/).
+
+- Change the label name to the issue label which you want to fetch from github [here](https://github.com/arshadkazmi42/first-issues/blob/master/first_timers/first_timers.py#L11). 
+- Finally to execute the script, use below command on command prompt
     - To only fetch the issues and store without tweeting
 
       ```
@@ -39,6 +45,6 @@ Dont't know what these stand for? No problem, following are the steps. 
         ``` 
         python first_timers/run.py --creds-path credentials.json --db-path data/db.json
         ```
-        This will fetch the issues with the defined label and store/update `data/db.json` and then tweet the issues which are not       already there in `db.json`.
+        This will fetch the issues with the defined label and store/update `data/db.json` and then tweet the issues which are not already there in `db.json`.
 
 This script will not tweet the fetched issues which already exists in `db.json` store
