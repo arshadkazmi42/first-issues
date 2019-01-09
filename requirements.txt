@@ -1,5 +1,5 @@
 tweepy
 Nose
-requests
+requests>=2.11.1
 click
 colorama
