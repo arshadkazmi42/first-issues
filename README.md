@@ -1,6 +1,6 @@
 # Good First Issues Bot :robot:
 
-Bot which tweets all github issues, which are has `good first isse` label.
+It tweets all github issues to tweeter, which has `good first isse` and `good-first-issue` labels tagged.
 This is inspired by [Utkarsh's](https://github.com/musically-ut) work on [first-timers-only-bot](https://github.com/musically-ut/first-timers-only-bot)
 
 You can follow the twitter account here [@first_issues](https://twitter.com/first_issues)
