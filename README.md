@@ -16,9 +16,9 @@ Read our Contribution guide [here](Contribution.md).
 
 ## Supporters
 
-[![Utkarsh Upadhyay ](https://github.com/musically-ut.png?size=100)](https://github.com/musically-ut) |
-| --- |
-[Utkarsh Upadhyay ](https://github.com/musically-ut) 
+[![Utkarsh Upadhyay](https://github.com/musically-ut.png?size=60)](https://github.com/musically-ut) | [![Subhrajyoti Sen](https://github.com/SubhrajyotiSen.png?size=60)](https://github.com/SubhrajyotiSen) | 
+| --- | --- |
+[@musically-ut](https://github.com/musically-ut) | [@SubhrajyotiSen](https://github.com/SubhrajyotiSen) 
 
 
 <a href="https://www.patreon.com/bePatron?u=15454240" target="_blank"><img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron!" height="41"></a>
