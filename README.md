@@ -19,7 +19,7 @@ Read our Contribution guide [here](Contribution.md).
 
 Please consider donating, to keep our servers up and running 
 
-## Supporters
+## Sponsors
 
 [![Utkarsh Upadhyay](https://github.com/musically-ut.png?size=60)](https://github.com/musically-ut) | [![Subhrajyoti Sen](https://github.com/SubhrajyotiSen.png?size=60)](https://github.com/SubhrajyotiSen) | 
 | --- | --- |
