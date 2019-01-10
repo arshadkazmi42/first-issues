@@ -4,7 +4,7 @@ To use this bot,
 
 - Clone the repository. [Steps to clone](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository).
 - Install the required dependencies using the following command.
- -- pip install -r requirements.txt
+  `pip install -r requirements.txt`
 - Create a `credentials.json` in root directory and add the details from the twitter account, on which you want the bot to tweet.
 
 ```
