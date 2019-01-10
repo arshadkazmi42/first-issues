@@ -80,9 +80,9 @@ def tweet_issues(issues, creds, debug=False):
 
         try:
             # Encoding here because .format will fail with Unicode characters.
-            tweet = '{title} {url} {tags}'.format(title=title.encode('utf-8'),
-                                                  url=url.encode('utf-8'),
-                                                  tags=hashTags.encode('utf-8'))
+            tweet = '{title} {url} {tags}'.format(title=title,
+                                                  url=url,
+                                                  tags=hashTags)
 
             if not debug:
                 api.update_status(tweet)
