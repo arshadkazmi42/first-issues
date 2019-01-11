@@ -5,6 +5,10 @@ This is inspired by [Utkarsh's](https://github.com/musically-ut) work on [first-
 
 You can follow the twitter account here [@first_issues](https://twitter.com/first_issues)
 
+<a href="https://www.patreon.com/bePatron?u=15454240" target="_blank"><img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron!" height="41"></a>
+
+Please consider donating, to keep our servers up and running 
+
 ## How to use
 Read our how to use guide [here](HOW_TO_USE.md).
 
@@ -13,11 +17,6 @@ Read our how to use guide [here](HOW_TO_USE.md).
 - If you want to fix some existing bugs in the script, you can find open issues [here](https://github.com/arshadkazmi42/first-issues/issues)
 
 Read our Contribution guide [here](Contribution.md).
-
-
-<a href="https://www.patreon.com/bePatron?u=15454240" target="_blank"><img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron!" height="41"></a>
-
-Please consider donating, to keep our servers up and running 
 
 ## Sponsors
 
