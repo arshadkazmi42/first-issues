@@ -7,16 +7,16 @@ To use this bot,
   `pip install -r requirements.txt`
 - Create a `credentials.json` in root directory and add the details from the twitter account, on which you want the bot to tweet.
 
-```
+```javascript
 // credentials.json
 
 { 
-"Consumer Key":"TWITTER_CONSUMER_KEY", 
-"Consumer Secret":"TWITTER_CONSUMER_SECRET",
-"Access Token":"TWITTER_APP_ACCESS_TOKEN", 
-"Access Token Secret":"TWITTER_APP_TOKEN_SECRET", 
-"Owner":"TWITTER_ACCOUNT_USERNAME", 
-"Owner ID":"TWITTER_ACCOUNT_ID" // This should be an integer value 
+  "Consumer Key":"TWITTER_CONSUMER_KEY", 
+  "Consumer Secret":"TWITTER_CONSUMER_SECRET",
+  "Access Token":"TWITTER_APP_ACCESS_TOKEN", 
+  "Access Token Secret":"TWITTER_APP_TOKEN_SECRET", 
+  "Owner":"TWITTER_ACCOUNT_USERNAME", 
+  "Owner ID":"TWITTER_ACCOUNT_ID" // This should be an integer value 
  }
  ```
 
