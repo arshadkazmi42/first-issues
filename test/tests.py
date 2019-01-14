@@ -1,7 +1,10 @@
+
+import sys
+sys.path.append('../')
 from first_timers import first_timers
 import json
 
-example_res = json.load(open('data/example.json', 'r'))
+example_res = json.load(open('../data/example.json', 'r'))
 example_issues = example_res['items']
 
 
