@@ -37,7 +37,7 @@ Dont't know what these stand for? No problem, following are the steps. 
     - To only fetch the issues and store without tweeting
 
       ```
-      python first_timers/run.py --creds-path credentials.json --db-path data/db.json --only-save
+      python first_timers/run.py --creds-path credentials.json --db-path data/db.json --only-save --create
       ```
       
       This command will fetch all the issues with the defined label and it will be store in `data/db.json` file. 
@@ -45,7 +45,7 @@ Dont't know what these stand for? No problem, following are the steps. 
     - To fetch and tweet the issues use the below command
 
         ``` 
-        python first_timers/run.py --creds-path credentials.json --db-path data/db.json
+        python first_timers/run.py --creds-path credentials.json --db-path data/db.json --create
         ```
         This will fetch the issues with the defined label and store/update `data/db.json` and then tweet the issues which are not already there in `db.json`.
 
