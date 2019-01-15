@@ -34,10 +34,16 @@ Dont't know what these stand for? No problem, following are the steps. 
 
 - Change the label name to the issue label which you want to fetch from github [here](https://github.com/arshadkazmi42/first-issues/blob/master/first_timers/first_timers.py#L11). 
 - Finally to execute the script, use below command on command prompt
+    - To create `db.json` file, use the below command (This command should be executed before all other commands)
+    
+      ```
+      python first_timers/run.py --creds-path credentials.json --db-path data/db.json --only-save --create
+      ```
+
     - To only fetch the issues and store without tweeting
 
       ```
-      python first_timers/run.py --creds-path credentials.json --db-path data/db.json --only-save --create
+      python first_timers/run.py --creds-path credentials.json --db-path data/db.json --only-save
       ```
       
       This command will fetch all the issues with the defined label and it will be store in `data/db.json` file. 
@@ -45,7 +51,7 @@ Dont't know what these stand for? No problem, following are the steps. 
     - To fetch and tweet the issues use the below command
 
         ``` 
-        python first_timers/run.py --creds-path credentials.json --db-path data/db.json --create
+        python first_timers/run.py --creds-path credentials.json --db-path data/db.json
         ```
         This will fetch the issues with the defined label and store/update `data/db.json` and then tweet the issues which are not already there in `db.json`.
 
