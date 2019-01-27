@@ -7,7 +7,6 @@
 [![Last Commit](https://img.shields.io/github/last-commit/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues)
 
 It tweets all github issues to tweeter, which has `good first isse` and `good-first-issue` labels tagged.
-This is inspired by [Utkarsh's](https://github.com/musically-ut) work on [first-timers-only-bot](https://github.com/musically-ut/first-timers-only-bot)
 
 You can follow the twitter account here [@first_issues](https://twitter.com/first_issues)
 
@@ -30,4 +29,8 @@ Read our Contribution guide [here](Contribution.md).
 [![Utkarsh Upadhyay](https://github.com/musically-ut.png?size=60)](https://github.com/musically-ut) | [![Subhrajyoti Sen](https://github.com/SubhrajyotiSen.png?size=60)](https://github.com/SubhrajyotiSen) | 
 | --- | --- |
 [@musically-ut](https://github.com/musically-ut) | [@SubhrajyotiSen](https://github.com/SubhrajyotiSen) 
+
+## Credits
+
+This is inspired by [Utkarsh's](https://github.com/musically-ut) work on [first-timers-only-bot](https://github.com/musically-ut/first-timers-only-bot)
 
