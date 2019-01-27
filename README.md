@@ -1,5 +1,11 @@
 # Good First Issues Bot :robot:
 
+[![Build Status](https://travis-ci.com/arshadkazmi42/first-issues.svg?branch=master)](https://api.travis-ci.com/arshadkazmi42/first-issues)
+[![Repo Size](https://img.shields.io/github/languages/code-size/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues)
+[![LICENSE](https://img.shields.io/github/license/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues/blob/master/LICENSE)
+[![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues/graphs/contributors)
+[![Last Commit](https://img.shields.io/github/last-commit/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues)
+
 It tweets all github issues to tweeter, which has `good first isse` and `good-first-issue` labels tagged.
 This is inspired by [Utkarsh's](https://github.com/musically-ut) work on [first-timers-only-bot](https://github.com/musically-ut/first-timers-only-bot)
 
