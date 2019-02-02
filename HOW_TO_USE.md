@@ -2,6 +2,8 @@
 
 To use this bot,
 
+ > Works only with python3.6
+ 
 - Clone the repository. [Steps to clone](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository).
 - Install the required dependencies using the following command.
   `pip install -r requirements.txt`
