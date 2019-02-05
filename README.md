@@ -24,6 +24,12 @@ Read our how to use guide [here](HOW_TO_USE.md).
 
 Read our Contribution guide [here](Contribution.md).
 
+## Contributors
+
+Thank you to all the contributors who help in making this project better :raised_hands:
+
+<a href="https://github.com/arshadkazmi42"><img src="https://github.com/arshadkazmi42.png" width="30" /></a><a href="https://github.com/rising-stark"><img src="https://github.com/rising-stark.png" width="30" /></a><a href="https://github.com/SubhamPaul21"><img src="https://github.com/SubhamPaul21.png" width="30" /></a><a href="https://github.com/anubhavsinha98"><img src="https://github.com/anubhavsinha98.png" width="30" /></a><a href="https://github.com/funnelferry"><img src="https://github.com/funnelferry.png" width="30" /></a><a href="https://github.com/Royserg"><img src="https://github.com/Royserg.png" width="30" /></a><a href="https://github.com/SubhrajyotiSen"><img src="https://github.com/SubhrajyotiSen.png" width="30" /></a><a href="https://github.com/cmdrtorefresh"><img src="https://github.com/cmdrtorefresh.png" width="30" /></a>
+
 ## Sponsors
 
 [![Utkarsh Upadhyay](https://github.com/musically-ut.png?size=60)](https://github.com/musically-ut) | [![Subhrajyoti Sen](https://github.com/SubhrajyotiSen.png?size=60)](https://github.com/SubhrajyotiSen) | 
