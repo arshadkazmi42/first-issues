@@ -6,7 +6,9 @@
 [![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues/graphs/contributors)
 [![Last Commit](https://img.shields.io/github/last-commit/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues)
 
-It tweets all github issues to twitter, which has `good first issue` and `good-first-issue` labels tagged.
+Do you want to contribute to open source software, but don't know where to start?
+We have developed a bot which tweets all github issues with the label `good first issue` or `good-first-issue`.
+Issues with these labels are easy to solve, which make them perfect for new Github users.
 
 You can follow the twitter account here [@first_issues](https://twitter.com/first_issues)
 
