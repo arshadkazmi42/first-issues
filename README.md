@@ -10,7 +10,10 @@ Do you want to contribute to open source software, but don't know where to start
 We have developed a bot which tweets all github issues with the label `good first issue` or `good-first-issue`.
 Issues with these labels are easy to solve, which make them perfect for new Github users.
 
-You can follow the twitter account [@first_issues](https://twitter.com/first_issues) or telegram channel [@first_issues](https://t.me/firstissues)
+You can follow the twitter account
+<a href="https://twitter.com/first_issues" target="_blank"><img src="http://i66.tinypic.com/28vq3xy.jpg" alt="[@first_issues](https://twitter.com/first_issues)" height="20" ></a>
+or telegram channel
+<a href="https://t.me/firstissues" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Telegram_alternative_logo.svg/256px-Telegram_alternative_logo.svg.png" alt="[@first_issues](https://twitter.com/first_issues)" height="20" ></a>
 
 <a href="https://www.buymeacoffee.com/arshadkazmi42" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 <a href="https://www.patreon.com/bePatron?u=15454240" target="_blank"><img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron!" height="40"></a>
