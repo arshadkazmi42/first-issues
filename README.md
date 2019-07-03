@@ -41,6 +41,9 @@ Thank you to all the contributors who help in making this project better :raised
 | --- | --- |
 [@musically-ut](https://github.com/musically-ut) | [@SubhrajyotiSen](https://github.com/SubhrajyotiSen) 
 
+## License
+Read our license [here](https://github.com/arshadkazmi42/first-issues/blob/master/LICENSE).
+
 ## Credits
 
 This is inspired by [Utkarsh's](https://github.com/musically-ut) work on [first-timers-only-bot](https://github.com/musically-ut/first-timers-only-bot)
