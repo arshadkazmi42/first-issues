@@ -37,9 +37,9 @@ Thank you to all the contributors who help in making this project better :raised
 
 ## Sponsors
 
-[![Utkarsh Upadhyay](https://github.com/musically-ut.png?size=60)](https://github.com/musically-ut) | [![Subhrajyoti Sen](https://github.com/SubhrajyotiSen.png?size=60)](https://github.com/SubhrajyotiSen) | 
-| --- | --- |
-[@musically-ut](https://github.com/musically-ut) | [@SubhrajyotiSen](https://github.com/SubhrajyotiSen) 
+[![Utkarsh Upadhyay](https://github.com/musically-ut.png?size=60)](https://github.com/musically-ut) | [![Subhrajyoti Sen](https://github.com/SubhrajyotiSen.png?size=60)](https://github.com/SubhrajyotiSen) | [![Swapnil Agarwal](https://github.com/swapagarwal.png?size=60)](https://github.com/swapagarwal) | 
+| --- | --- | --- |
+[@musically-ut](https://github.com/musically-ut) | [@SubhrajyotiSen](https://github.com/SubhrajyotiSen) | [@swapagarwal](https://github.com/swapagarwal) 
 
 ## License
 Read our license [here](https://github.com/arshadkazmi42/first-issues/blob/master/LICENSE).
