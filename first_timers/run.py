@@ -49,6 +49,7 @@ def run(only_save, db_path, create, creds_path, debug):
     # Getting the latest list of issues from GitHub
     new_issues = FT.get_first_timer_issues()
     fresh_issues = FT.get_fresh(old_issues, new_issues)
+    FT.add_repo_languages(fresh_issues)
     all_issues = fresh_issues + old_issues
 
     if not only_save:
