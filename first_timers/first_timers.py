@@ -49,7 +49,7 @@ def add_repo_languages(issues):
         elif res.ok:
             issue['languages'] = res.json()
         else:
-            raise RuntimeError('Could not handle response: ' + str(res) + ' from the API.')
+            warnings.warn('Could not handle response: ' + str(res) + ' from the API.')
     return issues
 
 
