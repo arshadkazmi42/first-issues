@@ -38,6 +38,21 @@ def get_first_timer_issues():
     return items
 
 
+def add_repo_languages(issues):
+    """Adds the repo languages to the issues list."""
+    for issue in issues:
+        query_languages = issue['repository_url'] + '/languages'
+        res = requests.get(query_languages)
+        if res.status_code == 403:
+            warnings.warn('Rate limit reached getting languages')
+            return issues
+        elif res.ok:
+            issue['languages'] = res.json()
+        else:
+            warnings.warn('Could not handle response: ' + str(res) + ' from the API.')
+    return issues
+
+
 def get_fresh(old_issue_list, new_issue_list):
     """Returns which issues are not present in the old list of issues."""
     old_urls = set(x['url'] for x in old_issue_list)
@@ -73,6 +88,10 @@ def tweet_issues(issues, creds, debug=False):
     for issue in issues:
         # Not encoding here because Twitter treats code points as 1 character.
         title = issue['title']
+        language_hashTags = ''
+        if 'languages' in issue:
+            language_hashTags = ''.join(' #{}'.format(lang) for lang in issue['languages'])
+            hashTags = hashTags + language_hashTags
         if len(title) > allowed_title_len:
             title = title[:allowed_title_len - 1] + ellipse
 

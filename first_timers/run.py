@@ -53,6 +53,8 @@ def run(only_save, db_path, create, creds_path, debug):
 
     if not only_save:
         try:
+            FT.add_repo_languages(fresh_issues)
+
             if not os.path.exists(creds_path):
                 print('Credentials file does not exist.', file=sys.stdout)
                 sys.exit(-1)
