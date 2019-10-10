@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #write out current crontab
 crontab -l > mycron
 #echo new cron into cron file
