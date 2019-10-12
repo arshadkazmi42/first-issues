@@ -11,7 +11,7 @@ python3 first_timers/run.py --creds-path credentials.json --db-path data/db.json
 # Setup a cron schedule
 echo "SHELL=/bin/bash
 BASH_ENV=/container.env
-* * * * * /run.sh >> /var/log/cron.log 2>&1
+*/1 * * * * /run.sh >> /var/log/cron.log 2>&1
 # This extra line makes it a valid cron" > scheduler.txt
 
 crontab scheduler.txt
