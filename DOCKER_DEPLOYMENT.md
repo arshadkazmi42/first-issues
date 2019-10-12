@@ -16,6 +16,5 @@
   ```
 - Restart container
 
-- <b>CREDENTAILS_PATH</b>: Absolute path for `credentails.json`
-Ex: `/home/ubuntu/first-issues/credentials.json`
+> **CREDENTAILS_PATH**: Absolute path for `credentails.json`
 
