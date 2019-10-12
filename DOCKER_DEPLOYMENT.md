@@ -16,5 +16,5 @@
   ```
 - Restart container
 
-> **CREDENTAILS_PATH**: Absolute path for `credentails.json`
+> **{CREDENTAILS_PATH}**: Absolute path for `credentails.json`
 
