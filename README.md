@@ -29,6 +29,12 @@ Currently this application can be deployed as docker container or it can be depl
 
 - [Docker Deployment](DOCKER_DEPLOYMENT.md)
 
+## Troubleshooting
+
+Seeing any errors while running the bot? Check out the [Troubleshooting Guide](TROUBLESHOOTING.md).
+
+If your problem is not present there, then go ahead and create an [issue](https://github.com/arshadkazmi42/first-issues/issues/new)
+
 ## Contributing
 - If you have got any suggestions, drop your suggestion [here](https://github.com/arshadkazmi42/first-issues/issues/new).
 - If you want to fix some existing bugs in the script, you can find open issues [here](https://github.com/arshadkazmi42/first-issues/issues)

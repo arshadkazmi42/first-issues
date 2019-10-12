@@ -14,6 +14,7 @@
   ```
     docker run -t -i --mount type=bind,src={CREDENTIALS_PATH},dst=/home/first-issues/credentials.json --name firstissuescron firstissuescron
   ```
+- Restart container
 
 - <b>CREDENTAILS_PATH</b>: Absolute path for `credentails.json`
 Ex: `/home/ubuntu/first-issues/credentials.json`
