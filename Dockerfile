@@ -21,7 +21,6 @@ WORKDIR /home
 
 RUN git clone https://github.com/arshadkazmi42/first-issues
 WORKDIR /home/first-issues
-RUN git checkout docker
 
 RUN chmod +x cron.sh entrypoint.sh
 
