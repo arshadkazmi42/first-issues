@@ -1,3 +1,4 @@
 #!/bin/bash
-timestamp=`date +%Y/%m/%d-%H:%M:%S`
-echo "System path is $PATH at $timestamp"
+echo "Running Cron"
+python3 /home/first-issues/first_timers/run.py --creds-path /home/first-issues/credentials.json --db-path /home/first-issues/data/db.json
+
