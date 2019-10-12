@@ -23,6 +23,12 @@ Please consider donating, to keep our servers up and running
 ## How to use
 Read our how to use guide [here](HOW_TO_USE.md).
 
+## Deployment
+
+Currently this application can be deployed as docker container or it can be deployed as standalone cron job
+
+- [Docker Deployment](DOCKER_DEPLOYMENT.md)
+
 ## Contributing
 - If you have got any suggestions, drop your suggestion [here](https://github.com/arshadkazmi42/first-issues/issues/new).
 - If you want to fix some existing bugs in the script, you can find open issues [here](https://github.com/arshadkazmi42/first-issues/issues)
