@@ -1,17 +1,15 @@
-# Good First Issues Bot :robot:
+<div align="center">
 
-[![Build Status](https://travis-ci.com/arshadkazmi42/first-issues.svg?branch=master)](https://api.travis-ci.com/arshadkazmi42/first-issues)
-[![Repo Size](https://img.shields.io/github/languages/code-size/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues)
-[![LICENSE](https://img.shields.io/github/license/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues/blob/master/LICENSE)
-[![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues/graphs/contributors)
-[![Last Commit](https://img.shields.io/github/last-commit/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues)
+<img src="https://github.com/arshadkazmi42/first-issues//blob/master/assets/first_issues_round.png" height="150">
+
+# First Issues Bot
 
 Do you want to contribute to open source software, but don't know where to start?
 We have developed a bot which tweets all github issues with the label `good first issue` or `good-first-issue`.
 Issues with these labels are easy to solve, which make them perfect for new Github users.
 
 You can follow the twitter account
-<a href="https://twitter.com/first_issues" target="_blank"><img src="http://i66.tinypic.com/28vq3xy.jpg" alt="[@first_issues](https://twitter.com/first_issues)" height="20" ></a>
+<a href="https://twitter.com/first_issues" target="_blank"><img src="https://pbs.twimg.com/profile_images/1111729635610382336/_65QFl7B.png" alt="[@first_issues](https://twitter.com/first_issues)" height="20" ></a>
 or telegram channel
 <a href="https://t.me/firstissues" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Telegram_alternative_logo.svg/256px-Telegram_alternative_logo.svg.png" alt="[@first_issues](https://twitter.com/first_issues)" height="20" ></a>
 
@@ -19,6 +17,15 @@ or telegram channel
 <a href="https://www.patreon.com/bePatron?u=15454240" target="_blank"><img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron!" height="40"></a>
 
 Please consider donating, to keep our servers up and running 
+
+</div>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![Build Status](https://travis-ci.com/arshadkazmi42/first-issues.svg?branch=master)](https://api.travis-ci.com/arshadkazmi42/first-issues)
+[![Repo Size](https://img.shields.io/github/languages/code-size/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues)
+[![LICENSE](https://img.shields.io/github/license/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues/blob/master/LICENSE)
+[![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues/graphs/contributors)
+[![Last Commit](https://img.shields.io/github/last-commit/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues)
 
 ## How to use
 Read our how to use guide [here](HOW_TO_USE.md).
