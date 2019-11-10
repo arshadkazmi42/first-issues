@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/arshadkazmi42/first-issues//blob/master/assets/first_issues_round.png" height="150">
+<img src="https://raw.githubusercontent.com/arshadkazmi42/first-issues/master/assets/first_issues_round.png" height="150">
 
 # First Issues Bot
 
