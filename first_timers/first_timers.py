@@ -79,21 +79,30 @@ def tweet_issues(issues, creds, debug=False):
     conf = api.configuration()
 
     url_len = conf['short_url_length_https']
-    hashTags = u'#github'
-    # 1 space with URL and 1 space before hashtags.
-    allowed_title_len = 140 - (url_len + 1) - (len(hashTags) + 1)
 
     tweets = []
 
     for issue in issues:
         # Not encoding here because Twitter treats code points as 1 character.
         title = issue['title']
+        hashTags = u'#github'
         language_hashTags = ''
-        if 'languages' in issue:
-            language_hashTags = ''.join(' #{}'.format(lang) for lang in issue['languages'])
-            hashTags = hashTags + language_hashTags
+        max_tweet_len = 280
+
+        # 1 space with URL and 1 space before hashtags.
+        allowed_title_len = max_tweet_len - (url_len + 1) - (len(hashTags) + 1)
+
         if len(title) > allowed_title_len:
             title = title[:allowed_title_len - 1] + ellipse
+        else:
+            if 'languages' in issue:
+                language_hashTags = ''.join(' #{}'.format(lang) for lang in issue['languages'])
+                hashTags = hashTags + language_hashTags
+
+            max_hashtags_len = max_tweet_len - (url_len + 1) - (len(title) + 1)
+
+            if len(hashTags) > max_hashtags_len:
+                hashTags = hashTags[:max_hashtags_len - 1] + ellipse
 
         url = humanize_url(issue['url'])
 
