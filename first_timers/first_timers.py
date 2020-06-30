@@ -35,7 +35,7 @@ def get_first_timer_issues(days_old=DAYS_OLD):
             warnings.warn('Rate limit reached')
             return items
         elif res.ok:
-            [items.append(item) for item in res.json()['items'] if (datetime.now() - datetime.strptime(item['created_at'], "%Y-%m-%dT%H:%M:%SZ")).days < daysold]
+            [items.append(item) for item in res.json()['items'] if (datetime.now() - datetime.strptime(item['created_at'], "%Y-%m-%dT%H:%M:%SZ")).days < days_old]
         else:
             raise RuntimeError('Could not handle response: ' + str(res) + ' from the API.')
     return items
