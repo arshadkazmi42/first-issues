@@ -7,6 +7,8 @@ from datetime import datetime, timedelta
 import requests
 import tweepy
 
+DAYS_OLD = 15
+
 ellipse = u'…'
 query_string = 'https://api.github.com/search/issues?q=label:"{}"+is:issue+is:open&sort=updated&order=desc'
 queries = [query_string.format('good-first-issue'), query_string.format('good first issue')]
@@ -24,7 +26,7 @@ def humanize_url(api_url):
     return human_url_template.format(user=user, repo=repo, issue_num=issue_num)
 
 
-def get_first_timer_issues(daysold=15):
+def get_first_timer_issues(days_old=DAYS_OLD):
     """Fetches the first page of issues with the label first-timers-label which are still open."""
     items = []
     for query in queries:
