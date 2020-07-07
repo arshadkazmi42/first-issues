@@ -2,9 +2,12 @@
 from __future__ import print_function
 import re
 import warnings
+from datetime import datetime, timedelta
 
 import requests
 import tweepy
+
+DAYS_OLD = 15
 
 ellipse = u'…'
 query_string = 'https://api.github.com/search/issues?q=label:"{}"+is:issue+is:open&sort=updated&order=desc'
@@ -23,7 +26,7 @@ def humanize_url(api_url):
     return human_url_template.format(user=user, repo=repo, issue_num=issue_num)
 
 
-def get_first_timer_issues():
+def get_first_timer_issues(days_old=DAYS_OLD):
     """Fetches the first page of issues with the label first-timers-label which are still open."""
     items = []
     for query in queries:
@@ -32,7 +35,7 @@ def get_first_timer_issues():
             warnings.warn('Rate limit reached')
             return items
         elif res.ok:
-            items.extend(res.json()['items'])
+            [items.append(item) for item in res.json()['items'] if (datetime.now() - datetime.strptime(item['created_at'], "%Y-%m-%dT%H:%M:%SZ")).days < days_old]
         else:
             raise RuntimeError('Could not handle response: ' + str(res) + ' from the API.')
     return items
