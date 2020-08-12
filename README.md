@@ -6,9 +6,9 @@
 
 Do you want to contribute to open source software, but don't know where to start?
 We have developed a bot which tweets all github issues with the label `good first issue` or `good-first-issue`.
-Issues with these labels are easy to solve, which make them perfect for new Github users.
+Issues with these labels are easy to solve, which make them perfect for Github users new to open source.
 
-You can follow the twitter account
+You can follow our twitter account
 <a href="https://twitter.com/first_issues" target="_blank"><img src="https://pbs.twimg.com/profile_images/1111729635610382336/_65QFl7B.png" alt="[@first_issues](https://twitter.com/first_issues)" height="20" ></a>
 or telegram channel
 <a href="https://t.me/firstissues" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Telegram_alternative_logo.svg/256px-Telegram_alternative_logo.svg.png" alt="[@first_issues](https://twitter.com/first_issues)" height="20" ></a>
@@ -43,7 +43,7 @@ Seeing any errors while running the bot? Check out the [Troubleshooting Guide](T
 If your problem is not present there, then go ahead and create an [issue](https://github.com/arshadkazmi42/first-issues/issues/new)
 
 ## Contributing
-- If you have got any suggestions, drop your suggestion [here](https://github.com/arshadkazmi42/first-issues/issues/new).
+- If you have got any suggestions, drop your suggestions [here](https://github.com/arshadkazmi42/first-issues/issues/new).
 - If you want to fix some existing bugs in the script, you can find open issues [here](https://github.com/arshadkazmi42/first-issues/issues)
 
 Read our Contribution guide [here](Contribution.md).
