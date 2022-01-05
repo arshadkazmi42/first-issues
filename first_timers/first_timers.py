@@ -8,6 +8,7 @@ import requests
 import tweepy
 
 DAYS_OLD = 15
+MAX_TWEETS_LEN = 280
 
 ellipse = u'…'
 query_string = 'https://api.github.com/search/issues?q=label:"{}"+is:issue+is:open&sort=updated&order=desc'
@@ -65,9 +66,7 @@ def get_fresh(old_issue_list, new_issue_list):
 def tweet_issues(issues, creds, debug=False):
     """Takes a list of issues and credentials and tweets through the account
     associated with the credentials.
-
     Also takes a parameter 'debug', which can prevent actual tweeting.
-
     Returns a list of tweets.
     """
 
@@ -79,30 +78,30 @@ def tweet_issues(issues, creds, debug=False):
     api = tweepy.API(auth)
 
     # This results in an API call to /help/configuration
-    conf = api.configuration()
+    # conf = api.configuration()
 
-    url_len = conf['short_url_length_https']
+    # url_len = conf['short_url_length_https']
+    url_len = 30
+    hashTags = u"#github"
+
+    # 1 space with URL and 1 space before hashtags.
+    allowed_title_len = MAX_TWEETS_LEN - (url_len + 1) - (len(hashTags) + 1)
 
     tweets = []
 
     for issue in issues:
         # Not encoding here because Twitter treats code points as 1 character.
-        title = issue['title']
-        hashTags = u'#github'
         language_hashTags = ''
-        max_tweet_len = 280
-
-        # 1 space with URL and 1 space before hashtags.
-        allowed_title_len = max_tweet_len - (url_len + 1) - (len(hashTags) + 1)
-
+        title = issue['title']
+        
         if len(title) > allowed_title_len:
-            title = title[:allowed_title_len - 1] + ellipse
+            title = title[: allowed_title_len - 1] + ellipse
         else:
             if 'languages' in issue:
                 language_hashTags = ''.join(' #{}'.format(lang) for lang in issue['languages'])
                 hashTags = hashTags + language_hashTags
 
-            max_hashtags_len = max_tweet_len - (url_len + 1) - (len(title) + 1)
+            max_hashtags_len = MAX_TWEETS_LEN - (url_len + 1) - (len(title) + 1)
 
             if len(hashTags) > max_hashtags_len:
                 hashTags = hashTags[:max_hashtags_len - 1] + ellipse
@@ -111,9 +110,11 @@ def tweet_issues(issues, creds, debug=False):
 
         try:
             # Encoding here because .format will fail with Unicode characters.
-            tweet = '{title} {url} {tags}'.format(title=title,
-                                                  url=url,
-                                                  tags=hashTags)
+            tweet = '{title} {url} {tags}'.format(
+                title=title,
+                url=url,
+                tags=hashTags
+            )
 
             if not debug:
                 api.update_status(tweet)
