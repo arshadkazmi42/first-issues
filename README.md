@@ -56,9 +56,9 @@ Thank you to all the contributors who help in making this project better :raised
 
 ## Sponsors
 
-| [<img src="./assets/kite-logo.png" alt="drawing" style="width:80px;"/>](https://www.kgkite.ac.in/) |
-| --- | --- | --- |
-[@KiTETechCollege](https://twitter.com/KiTETechCollege) |
+[<img src="./assets/kite-logo.png" alt="drawing" style="width:80px;"/>](https://www.kgkite.ac.in/)
+| --- |
+[@KiTETechCollege](https://twitter.com/KiTETechCollege)
 
 
 ## Past Sponsors
