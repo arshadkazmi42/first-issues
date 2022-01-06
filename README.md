@@ -48,12 +48,6 @@ If your problem is not present there, then go ahead and create an [issue](https:
 
 Read our Contribution guide [here](Contribution.md).
 
-## Contributors
-
-Thank you to all the contributors who help in making this project better :raised_hands:
-
-<a href="https://github.com/arshadkazmi42"><img src="https://github.com/arshadkazmi42.png" width="30" /></a><a href="https://github.com/rising-stark"><img src="https://github.com/rising-stark.png" width="30" /></a><a href="https://github.com/SubhamPaul21"><img src="https://github.com/SubhamPaul21.png" width="30" /></a><a href="https://github.com/Aneal-Sharma"><img src="https://github.com/Aneal-Sharma.png" width="30" /></a><a href="https://github.com/anubhavsinha98"><img src="https://github.com/anubhavsinha98.png" width="30" /></a><a href="https://github.com/funnelferry"><img src="https://github.com/funnelferry.png" width="30" /></a><a href="https://github.com/Royserg"><img src="https://github.com/Royserg.png" width="30" /></a><a href="https://github.com/SubhrajyotiSen"><img src="https://github.com/SubhrajyotiSen.png" width="30" /></a><a href="https://github.com/cmdrtorefresh"><img src="https://github.com/cmdrtorefresh.png" width="30" /></a>
-
 ## Sponsors
 
 [<img src="./assets/kite-logo.png" alt="drawing" style="width:80px;"/>](https://www.kgkite.ac.in/)
@@ -66,6 +60,12 @@ Thank you to all the contributors who help in making this project better :raised
 [![Utkarsh Upadhyay](https://github.com/musically-ut.png?size=60)](https://github.com/musically-ut) | [![Subhrajyoti Sen](https://github.com/SubhrajyotiSen.png?size=60)](https://github.com/SubhrajyotiSen) | [![Swapnil Agarwal](https://github.com/swapagarwal.png?size=60)](https://github.com/swapagarwal) | 
 | --- | --- | --- |
 [@musically-ut](https://github.com/musically-ut) | [@SubhrajyotiSen](https://github.com/SubhrajyotiSen) | [@swapagarwal](https://github.com/swapagarwal) 
+
+## Contributors
+
+Thank you to all the contributors who help in making this project better :raised_hands:
+
+<a href="https://github.com/arshadkazmi42"><img src="https://github.com/arshadkazmi42.png" width="30" /></a><a href="https://github.com/rising-stark"><img src="https://github.com/rising-stark.png" width="30" /></a><a href="https://github.com/SubhamPaul21"><img src="https://github.com/SubhamPaul21.png" width="30" /></a><a href="https://github.com/Aneal-Sharma"><img src="https://github.com/Aneal-Sharma.png" width="30" /></a><a href="https://github.com/anubhavsinha98"><img src="https://github.com/anubhavsinha98.png" width="30" /></a><a href="https://github.com/funnelferry"><img src="https://github.com/funnelferry.png" width="30" /></a><a href="https://github.com/Royserg"><img src="https://github.com/Royserg.png" width="30" /></a><a href="https://github.com/SubhrajyotiSen"><img src="https://github.com/SubhrajyotiSen.png" width="30" /></a><a href="https://github.com/cmdrtorefresh"><img src="https://github.com/cmdrtorefresh.png" width="30" /></a>
 
 ## License
 Read our license [here](https://github.com/arshadkazmi42/first-issues/blob/master/LICENSE).
