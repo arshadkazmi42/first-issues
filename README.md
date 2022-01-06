@@ -56,6 +56,13 @@ Thank you to all the contributors who help in making this project better :raised
 
 ## Sponsors
 
+| [<img src="./assets/kite-logo.png" alt="drawing" style="width:80px;"/>](https://www.kgkite.ac.in/)
+| --- | --- | --- |
+[@KiTETechCollege](https://twitter.com/KiTETechCollege) |
+
+
+## Past Sponsors
+
 [![Utkarsh Upadhyay](https://github.com/musically-ut.png?size=60)](https://github.com/musically-ut) | [![Subhrajyoti Sen](https://github.com/SubhrajyotiSen.png?size=60)](https://github.com/SubhrajyotiSen) | [![Swapnil Agarwal](https://github.com/swapagarwal.png?size=60)](https://github.com/swapagarwal) | 
 | --- | --- | --- |
 [@musically-ut](https://github.com/musically-ut) | [@SubhrajyotiSen](https://github.com/SubhrajyotiSen) | [@swapagarwal](https://github.com/swapagarwal) 
