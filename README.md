@@ -3,6 +3,12 @@
 <img src="https://raw.githubusercontent.com/arshadkazmi42/first-issues/master/assets/first_issues_round.png" height="150">
 
 # First Issues Bot
+  
+[![Build Status](https://travis-ci.com/arshadkazmi42/first-issues.svg?branch=master)](https://api.travis-ci.com/arshadkazmi42/first-issues)
+[![Repo Size](https://img.shields.io/github/languages/code-size/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues)
+[![LICENSE](https://img.shields.io/github/license/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues/blob/master/LICENSE)
+[![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues/graphs/contributors)
+[![Last Commit](https://img.shields.io/github/last-commit/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues)
 
 Do you want to contribute to open source software, but don't know where to start?
 We have developed a bot which tweets all github issues with the label `good first issue` or `good-first-issue`.
@@ -14,12 +20,6 @@ or telegram channel
 <a href="https://t.me/firstissues" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Telegram_alternative_logo.svg/256px-Telegram_alternative_logo.svg.png" alt="[@first_issues](https://twitter.com/first_issues)" height="20" ></a> 
 or simply 
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/arshadkazmi42/first-issues).
-
-[![Build Status](https://travis-ci.com/arshadkazmi42/first-issues.svg?branch=master)](https://api.travis-ci.com/arshadkazmi42/first-issues)
-[![Repo Size](https://img.shields.io/github/languages/code-size/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues)
-[![LICENSE](https://img.shields.io/github/license/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues/blob/master/LICENSE)
-[![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues/graphs/contributors)
-[![Last Commit](https://img.shields.io/github/last-commit/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues)
   
 </div>
   
