@@ -8,7 +8,7 @@
 [![Repo Size](https://img.shields.io/github/languages/code-size/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues)
 [![LICENSE](https://img.shields.io/github/license/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues/blob/master/LICENSE)
 [![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues/graphs/contributors)
-[![Last Commit](https://img.shields.io/github/last-commit/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues)
+[![Last Commit](https://img.shields.io/github/last-commit/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42&first-issues)
 
 Do you want to contribute to open source software, but don't know where to start?
 We have developed a bot which tweets all github issues with the label `good first issue` or `good-first-issue`.
