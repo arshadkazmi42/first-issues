@@ -19,7 +19,7 @@ You can follow our twitter account
 or telegram channel
 <a href="https://t.me/firstissues" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Telegram_alternative_logo.svg/256px-Telegram_alternative_logo.svg.png" alt="[@first_issues](https://twitter.com/first_issues)" height="20" ></a> 
 or simply 
-[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/arshadkazmi42/first-issues).
+[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/arshadkazmi42&first-issues).
   
 </div>
   
