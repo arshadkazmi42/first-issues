@@ -2,8 +2,7 @@
 from __future__ import print_function
 import re
 import warnings
-from datetime import datetime, timedelta
-
+from datetime import datetime
 import requests
 import tweepy
 
@@ -28,17 +27,24 @@ def humanize_url(api_url):
 
 
 def get_first_timer_issues(days_old=DAYS_OLD):
-    """Fetches the first page of issues with the label first-timers-label which are still open."""
+    """Fetches the first page of issues with the label first-timers-label
+    which are still open.
+    """
     items = []
     for query in queries:
         res = requests.get(query)
         if res.status_code == 403:
             warnings.warn('Rate limit reached')
             return items
-        elif res.ok:
-            [items.append(item) for item in res.json()['items'] if (datetime.now() - datetime.strptime(item['created_at'], "%Y-%m-%dT%H:%M:%SZ")).days < days_old]
+        if res.ok:
+            for item in res.json()['items']:
+                created_at = datetime.strptime(item['created_at'], "%Y-%m-%dT%H:%M:%SZ")
+                if (datetime.now() - created_at).days < days_old:
+                    items.append(item)
         else:
-            raise RuntimeError('Could not handle response: ' + str(res) + ' from the API.')
+            raise RuntimeError(
+                'Could not handle response: ' + str(res) + ' from the API.'
+                )
     return items
 
 
@@ -50,7 +56,7 @@ def add_repo_languages(issues):
         if res.status_code == 403:
             warnings.warn('Rate limit reached getting languages')
             return issues
-        elif res.ok:
+        if res.ok:
             issue['languages'] = res.json()
         else:
             warnings.warn('Could not handle response: ' + str(res) + ' from the API.')
@@ -59,7 +65,7 @@ def add_repo_languages(issues):
 
 def get_fresh(old_issue_list, new_issue_list):
     """Returns which issues are not present in the old list of issues."""
-    old_urls = set(x['url'] for x in old_issue_list)
+    old_urls = {x['url'] for x in old_issue_list}
     return [x for x in new_issue_list if x['url'] not in old_urls]
 
 
@@ -69,7 +75,6 @@ def tweet_issues(issues, creds, debug=False):
     Also takes a parameter 'debug', which can prevent actual tweeting.
     Returns a list of tweets.
     """
-
     if len(issues) == 0:
         return []
 
@@ -93,12 +98,14 @@ def tweet_issues(issues, creds, debug=False):
         # Not encoding here because Twitter treats code points as 1 character.
         language_hashTags = ''
         title = issue['title']
-        
+
         if len(title) > allowed_title_len:
             title = title[: allowed_title_len - 1] + ellipse
         else:
             if 'languages' in issue:
-                language_hashTags = ''.join(' #{}'.format(lang) for lang in issue['languages'])
+                language_hashTags = ''.join(
+                    ' #{}'.format(lang) for lang in issue['languages']
+                    )
                 hashTags = hashTags + language_hashTags
 
             max_hashtags_len = MAX_TWEETS_LEN - (url_len + 1) - (len(title) + 1)
