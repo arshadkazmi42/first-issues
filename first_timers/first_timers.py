@@ -37,8 +37,7 @@ def get_first_timer_issues(days_old=DAYS_OLD):
             warnings.warn('Rate limit reached')
             return items
         if res.ok:
-            items = res.json()['items']
-            for item in items:
+            for item in res.json()['items']:
                 created_at = datetime.strptime(item['created_at'], "%Y-%m-%dT%H:%M:%SZ")
                 if (datetime.now() - created_at).days < days_old:
                     items.append(item)
