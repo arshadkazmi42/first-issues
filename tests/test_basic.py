@@ -1,14 +1,10 @@
-import os
-import sys
-relpath = os.path.dirname(__file__) # Find relative path: from current directory to test.py
-abspath = os.path.abspath(".")      # Find absolute path: from / to current directory
-os.chdir(abspath + '/first_timers')
-sys.path.append('./')
-import first_timers
+
+# attribution: https://containersolutions.github.io/runbooks/posts/python/module-has-no-attribute/#step-2
+from first_timers import first_timers
 import json
 
 
-example_res = json.load(open('../data/example.json', 'r'))
+example_res = json.load(open('data/example.json', 'r'))
 example_issues = example_res['items']
 
 
