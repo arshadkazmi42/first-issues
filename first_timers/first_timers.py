@@ -14,22 +14,21 @@ query_string = 'https://api.github.com/search/issues?q=label:"{}"+is:issue+is:op
 queries = [query_string.format('good-first-issue'), query_string.format('good first issue')]
 
 
-def humanize_url(api_url):
+def humanize_url(api_url: str) -> str:
     """Make an API endpoint to an Human endpoint."""
     match = re.match('https://api.github.com/repos/(.*)/(.*)/issues/([0-9]*)', api_url)
-    if match is None:
-        raise RuntimeError('Format of API URLs has changed: ', api_url)
-
-    user, repo, issue_num = match.group(1), match.group(2), match.group(3)
-    human_url_template = 'https://github.com/{user}/{repo}/issues/{issue_num}'
-
-    return human_url_template.format(user=user, repo=repo, issue_num=issue_num)
+    if not match:
+        raise ValueError(f'Format of API URLs has changed: {api_url}')
+    user, repo, issue_num = match.group(1, 2, 3)
+    
+    return f'https://github.com/{user}/{repo}/issues/{issue_num}'
 
 
-def get_first_timer_issues(days_old=DAYS_OLD):
+def get_first_timer_issues(days_old: int=DAYS_OLD):
     """Fetches the first page of issues with the label first-timers-label
     which are still open.
     """
+    queries = (query_string.format('good-first-issue'), query_string.format('good first issue'))
     items = []
     for query in queries:
         res = requests.get(query)
