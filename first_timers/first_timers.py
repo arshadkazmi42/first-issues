@@ -10,42 +10,38 @@ DAYS_OLD = 15
 MAX_TWEETS_LEN = 280
 
 ellipse = u'…'
-query_string = 'https://api.github.com/search/issues?q=label:"{}"+is:issue+is:open&sort=updated&order=desc'
-queries = [query_string.format('good-first-issue'), query_string.format('good first issue')]
+FIRST_ISSUE_QUERY_URL = 'https://api.github.com/search/issues?q=label:"{}"+is:issue+is:open&sort=updated&order=desc'
 
 
-def humanize_url(api_url):
+
+def humanize_url(api_url: str) -> str:
     """Make an API endpoint to an Human endpoint."""
     match = re.match('https://api.github.com/repos/(.*)/(.*)/issues/([0-9]*)', api_url)
-    if match is None:
-        raise RuntimeError('Format of API URLs has changed: ', api_url)
-
-    user, repo, issue_num = match.group(1), match.group(2), match.group(3)
-    human_url_template = 'https://github.com/{user}/{repo}/issues/{issue_num}'
-
-    return human_url_template.format(user=user, repo=repo, issue_num=issue_num)
+    if not match:
+        raise ValueError(f'Format of API URLs has changed: {api_url}')
+    user, repo, issue_num = match.group(1, 2, 3)
+    
+    return f'https://github.com/{user}/{repo}/issues/{issue_num}'
 
 
-def get_first_timer_issues(days_old=DAYS_OLD):
+def get_first_timer_issues(issue_label: str) -> list:
     """Fetches the first page of issues with the label first-timers-label
     which are still open.
     """
+    res = requests.get(FIRST_ISSUE_QUERY_URL.format(issue_label))
+    res.raise_for_status()
+
     items = []
-    for query in queries:
-        res = requests.get(query)
-        if res.status_code == 403:
-            warnings.warn('Rate limit reached')
-            return items
-        if res.ok:
-            for item in res.json()['items']:
-                created_at = datetime.strptime(item['created_at'], "%Y-%m-%dT%H:%M:%SZ")
-                if (datetime.now() - created_at).days < days_old:
-                    items.append(item)
-        else:
-            raise RuntimeError(
-                'Could not handle response: ' + str(res) + ' from the API.'
-                )
+    for item in res.json()['items']:
+        if check_days_passed(item['created_at'], DAYS_OLD):
+            items.append(item)
+
     return items
+
+def check_days_passed(date_created: str, days: int) -> bool:
+    created_at = datetime.strptime(date_created, "%Y-%m-%dT%H:%M:%SZ")
+    return (datetime.now() - created_at).days < days
+
 
 
 def add_repo_languages(issues):
