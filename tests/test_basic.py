@@ -10,8 +10,10 @@ example_issues = example_res['items']
 
 def test_fetcher():
     """Test whether first_timer_issues are getting picked up."""
-    issue_list = first_timers.get_first_timer_issues()
-    assert len(issue_list) > 0
+    issue_label = ('good first issue')
+    new_issues = first_timers.get_first_timer_issues(issue_label)
+
+    assert new_issues
 
 
 test_fetcher.__setattr__('__test__', False)  # Test disabled by default.
