@@ -2,6 +2,7 @@
 from __future__ import print_function
 import re
 import warnings
+from typing import Dict
 from datetime import datetime
 import requests
 import tweepy
@@ -24,7 +25,7 @@ def humanize_url(api_url: str) -> str:
     return f'https://github.com/{user}/{repo}/issues/{issue_num}'
 
 
-def get_first_timer_issues(issue_label: str) -> list[dict]:
+def get_first_timer_issues(issue_label: str) -> list[Dict]:
     """Fetches the first page of issues with the label first-timers-label
     which are still open.
     """
