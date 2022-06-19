@@ -8,30 +8,32 @@ import warnings
 import requests
 import first_timers as FT
 
+
 def updateDB(all_issues, db_path):
     """Truncate and write the new list of issues in the DB."""
     with open(db_path, 'w') as dbFile:
         json.dump(FT.limit_issues(all_issues), dbFile, indent=2)
 
+
 @click.command()
 @click.option('--only-save',
-        is_flag=True,
-        help='Do not post any tweets, just populate the DB.')
+              is_flag=True,
+              help='Do not post any tweets, just populate the DB.')
 @click.option('--db-path',
-        prompt='Database file',
-        default='data/db.json',
-        help='Old issues in a JSON list.')
+              prompt='Database file',
+              default='data/db.json',
+              help='Old issues in a JSON list.')
 @click.option('--create',
-        is_flag=True,
-        help='Pass if the DB file should be created.')
+              is_flag=True,
+              help='Pass if the DB file should be created.')
 @click.option('--creds-path',
-        prompt='Credentials file',
-        default='',
-        help='File which contains Twitter account credentials. '
-             'Not needed if only saving to DB.')
+              prompt='Credentials file',
+              default='',
+              help='File which contains Twitter account credentials. '
+              'Not needed if only saving to DB.')
 @click.option('--debug',
-        is_flag=True,
-        help='Run in debug mode (does not tweet).')
+              is_flag=True,
+              help='Run in debug mode (does not tweet).')
 def run(only_save, db_path, create, creds_path, debug):
     dbExists = os.path.exists(db_path)
     if not dbExists and not create:
@@ -95,4 +97,3 @@ def run(only_save, db_path, create, creds_path, debug):
 
 if __name__ == '__main__':
     run()
-
