@@ -1,6 +1,5 @@
 
-# attribution:
-# https://containersolutions.github.io/runbooks/posts/python/module-has-no-attribute/#step-2
+# attribution: https://containersolutions.github.io/runbooks/posts/python/module-has-no-attribute/#step-2
 from first_timers import first_timers
 import json
 
