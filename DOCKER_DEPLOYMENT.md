@@ -1,7 +1,7 @@
 ## DOCKER DEPLOYMENT
 
 - Clone the repository
-- Go to project root directory 
+- Go to project root directory
   ```
     cd first-issues
   ```
@@ -17,4 +17,3 @@
 - Restart container
 
 > **{CREDENTAILS_PATH}**: Absolute path for `credentails.json`
-

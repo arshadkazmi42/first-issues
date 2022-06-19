@@ -13,14 +13,14 @@ ellipse = u'…'
 FIRST_ISSUE_QUERY_URL = 'https://api.github.com/search/issues?q=label:"{}"+is:issue+is:open&sort=updated&order=desc'
 
 
-
 def humanize_url(api_url: str) -> str:
     """Make an API endpoint to an Human endpoint."""
-    match = re.match('https://api.github.com/repos/(.*)/(.*)/issues/([0-9]*)', api_url)
+    match = re.match(
+        'https://api.github.com/repos/(.*)/(.*)/issues/([0-9]*)', api_url)
     if not match:
         raise ValueError(f'Format of API URLs has changed: {api_url}')
     user, repo, issue_num = match.group(1, 2, 3)
-    
+
     return f'https://github.com/{user}/{repo}/issues/{issue_num}'
 
 
@@ -38,10 +38,10 @@ def get_first_timer_issues(issue_label: str) -> list:
 
     return items
 
+
 def check_days_passed(date_created: str, days: int) -> bool:
     created_at = datetime.strptime(date_created, "%Y-%m-%dT%H:%M:%SZ")
     return (datetime.now() - created_at).days < days
-
 
 
 def add_repo_languages(issues):
@@ -55,7 +55,8 @@ def add_repo_languages(issues):
         if res.ok:
             issue['languages'] = res.json()
         else:
-            warnings.warn('Could not handle response: ' + str(res) + ' from the API.')
+            warnings.warn('Could not handle response: ' +
+                          str(res) + ' from the API.')
     return issues
 
 
@@ -101,10 +102,11 @@ def tweet_issues(issues, creds, debug=False):
             if 'languages' in issue:
                 language_hashTags = ''.join(
                     ' #{}'.format(lang) for lang in issue['languages']
-                    )
+                )
                 hashTags = hashTags + language_hashTags
 
-            max_hashtags_len = MAX_TWEETS_LEN - (url_len + 1) - (len(title) + 1)
+            max_hashtags_len = MAX_TWEETS_LEN - \
+                (url_len + 1) - (len(title) + 1)
 
             if len(hashTags) > max_hashtags_len:
                 hashTags = hashTags[:max_hashtags_len - 1] + ellipse
