@@ -13,7 +13,6 @@ def test_fetcher():
     """Test whether first_timer_issues are getting picked up."""
     issue_label = ('good first issue')
     new_issues = first_timers.get_first_timer_issues(issue_label)
-
     assert new_issues
 
 
@@ -27,6 +26,10 @@ def test_get_fresh():
 
 
 def test_humanize_url():
+    """Test whether the humanization of api endpoint works.
+    Please see https://en.wikipedia.org/wiki/URI_normalization
+    """
+
     api_url = "https://api.github.com/repos/tidusjar/NZBDash/issues/53"
     human_url = 'https://github.com/tidusjar/NZBDash/issues/53'
     assert first_timers.humanize_url(api_url) == human_url
