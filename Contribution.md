@@ -1,12 +1,13 @@
-
 # Contribution Guidelines
 
 ### Thanks, for considering to contribute to this repository!
+
 You can contribute to this repository by either solving an issue or suggesting improvements/changes in the code.
 
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
 
 To start contributing, follow the steps below
+
 - Fork the repo
 - Clone the repo
 - Create a branch using `git checkout -b feature-branch`
