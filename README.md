@@ -63,4 +63,5 @@ Read our license [here](https://github.com/arshadkazmi42/first-issues/blob/maste
 
 ## Credits
 
-This is inspired by [Utkarsh's](https://github.com/musically-ut) work on [first-timers-only-bot](https://github.com/musically-ut/first-timers-only-bot)
+- This is inspired by [Utkarsh's](https://github.com/musically-ut) work on [first-timers-only-bot](https://github.com/musically-ut/first-timers-only-bot)
+- The header image for the Twitter page and the icon was generously created by Issac Mikel ([@icusficus](https://github.com/icusficus))
