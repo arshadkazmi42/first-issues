@@ -9,7 +9,7 @@ When contributing to this repository, please first discuss the change you wish t
 To start contributing, follow the steps below
 
 - Fork the repo
-- Clone the repo
+- Clone the repo using 'git clone url'
 - Create a branch using `git checkout -b feature-branch`
 - Make the required changes
 - Create a pull request using below commands
