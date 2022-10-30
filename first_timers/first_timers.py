@@ -138,7 +138,7 @@ def tweet_issues(issues, creds, debug=False):
     return tweets
 
 
-def limit_issues(issues, limit_len=100000):
+def limit_issues(issues, limit_len: int = 100000):
     """Limit the number of issues saved in our DB."""
     sorted_issues = sorted(issues, key=lambda x: x['updated_at'], reverse=True)
     return sorted_issues[:limit_len]
