@@ -23,45 +23,45 @@ or simply
 
 </div>
   
-## How to use
+## How to use🤔
 Read our how to use guide [here](HOW_TO_USE.md).
 
-## Deployment
+## Deployment🧑‍💻
 
 Currently this application can be deployed as docker container or it can be deployed as standalone cron job
 
 - [Docker Deployment](DOCKER_DEPLOYMENT.md)
 
-## Troubleshooting
+## Troubleshooting🛠
 
 Seeing any errors while running the bot? Check out the [Troubleshooting Guide](TROUBLESHOOTING.md).
 
 If your problem is not present there, then go ahead and create an [issue](https://github.com/arshadkazmi42/first-issues/issues/new)
 
-## Contributing
+## Contributing 🟩
 
 - If you have got any suggestions, drop your suggestions [here](https://github.com/arshadkazmi42/first-issues/issues/new).
 - If you want to fix some existing bugs in the script, you can find open issues [here](https://github.com/arshadkazmi42/first-issues/issues)
 
 Read our Contribution guide [here](Contribution.md).
 
-## Sponsors
+## Sponsors 🌟
 
 [<img src="./assets/kite-logo.png" alt="drawing" style="width:80px;"/>](https://www.kgkite.ac.in/)
 | --- |
 [@KiTETechCollege](https://twitter.com/KiTETechCollege)
 
-## Past Sponsors
+## Past Sponsors ⭐️
 
 | [![Utkarsh Upadhyay](https://github.com/musically-ut.png?size=60)](https://github.com/musically-ut) | [![Subhrajyoti Sen](https://github.com/SubhrajyotiSen.png?size=60)](https://github.com/SubhrajyotiSen) | [![Swapnil Agarwal](https://github.com/swapagarwal.png?size=60)](https://github.com/swapagarwal) |
 | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
 | [@musically-ut](https://github.com/musically-ut)                                                    | [@SubhrajyotiSen](https://github.com/SubhrajyotiSen)                                                   | [@swapagarwal](https://github.com/swapagarwal)                                                   |
 
-## License
+## License 👮🏽
 
 Read our license [here](https://github.com/arshadkazmi42/first-issues/blob/master/LICENSE).
 
-## Credits
+## Credits 👏
 
 - This is inspired by [Utkarsh's](https://github.com/musically-ut) work on [first-timers-only-bot](https://github.com/musically-ut/first-timers-only-bot)
 - The header image for the Twitter page and the icon was generously created by Issac Mikel ([@icusficus](https://github.com/icusficus))
