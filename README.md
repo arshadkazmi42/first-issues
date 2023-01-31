@@ -12,7 +12,7 @@
 
 Do you want to contribute to open source software, but don't know where to start?
 We have developed a bot which tweets all github issues with the label `good first issue` or `good-first-issue`.
-Issues with these labels are easy to solve, which make them perfect for Github users new to open source.
+Issues with these labels are easy to solve, which makes them perfect for Github users who are new to open source.
 
 You can follow our twitter account
 <a href="https://twitter.com/first_issues" target="_blank"><img src="https://pbs.twimg.com/profile_images/1111729635610382336/_65QFl7B.png" alt="[@first_issues](https://twitter.com/first_issues)" height="20" ></a>
@@ -28,15 +28,15 @@ Read our how to use guide [here](HOW_TO_USE.md).
 
 ## Deployment
 
-Currently this application can be deployed as docker container or it can be deployed as standalone cron job.
+Currently this application can be deployed as a docker container or it can be deployed as a standalone cron job.
 
 - [Docker Deployment](DOCKER_DEPLOYMENT.md)
 
 ## Troubleshooting 🛠
 
-Seeing any errors while running the bot? Check out the[Troubleshooting Guide](TROUBLESHOOTING.md).
+Seeing any errors while running the bot? Check out the [Troubleshooting Guide](TROUBLESHOOTING.md).
 
-If your problem is not present there,then go ahead and create an [issue](https://github.com/arshadkazmi42/first-issues/issues/new)
+If your problem is not present there, then go ahead and create an [issue](https://github.com/arshadkazmi42/first-issues/issues/new)
 
 ## Contributing 🧑‍💻
 
@@ -64,4 +64,4 @@ Read our license [here](https://github.com/arshadkazmi42/first-issues/blob/maste
 ## Credits 👏
 
 - This is inspired by [Utkarsh's](https://github.com/musically-ut) work on [first-timers-only-bot](https://github.com/musically-ut/first-timers-only-bot)
-- The header image for the Twitter page and the icon was generously created by Issac Mikel ([@icusficus](https://github.com/icusficus))
+- The header image for the Twitter page and the icon were generously created by Issac Mikel ([@icusficus](https://github.com/icusficus))
