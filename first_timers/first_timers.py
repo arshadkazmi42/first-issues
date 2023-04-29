@@ -5,6 +5,11 @@ import warnings
 from datetime import datetime
 import requests
 import tweepy
+import logging
+
+# Set up logging
+logging.basicConfig(filename='app.log', level=logging.INFO)
+
 
 DAYS_OLD = 15
 MAX_TWEETS_LEN = 280
@@ -13,9 +18,19 @@ ellipse = u'…'
 api = 'https://api.github.com/search/issues'
 FIRST_ISSUE_QUERY_URL = api + '?q=label:"{}"+is:issue+is:open&sort=updated&order=desc'
 
+# Logging helper function
+def log_info(message):
+    logging.info(message)
+
+def log_warning(message):
+    logging.warning(message)
+
+def log_error(message):
+    logging.error(message)
+
 
 def humanize_url(api_url: str) -> str:
-    """Make an API endpoint to an Human endpoint."""
+    """Make an API endpoint to a Human endpoint."""
     match = re.match(
         'https://api.github.com/repos/(.*)/(.*)/issues/([0-9]*)', api_url)
     if not match:
@@ -51,12 +66,12 @@ def add_repo_languages(issues):
         query_languages = issue['repository_url'] + '/languages'
         res = requests.get(query_languages)
         if res.status_code == 403:
-            warnings.warn('Rate limit reached getting languages')
+            log_warning('Rate limit reached getting languages')
             return issues
         if res.ok:
             issue['languages'] = res.json()
         else:
-            warnings.warn('Could not handle response: ' +
+            log_warning('Could not handle response: ' +
                           str(res) + ' from the API.')
     return issues
 
@@ -129,11 +144,16 @@ def tweet_issues(issues, creds, debug=False):
                 'error': None,
                 'tweet': tweet
             })
+
+            log_info('Tweeted issue: {}'.format(issue['title']))
         except Exception as e:
             tweets.append({
                 'error': e,
                 'tweet': tweet
             })
+
+            log_error('Error tweeting issue: {}'.format(issue['title']))
+            log_error('Error message: {}'.format(str(e)))
 
     return tweets
 
