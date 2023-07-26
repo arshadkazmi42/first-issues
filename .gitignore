@@ -63,3 +63,6 @@ target/
 
 credentials.json
 data/db.json
+
+# virtual env
+venv
