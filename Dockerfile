@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:latest-release
 
 MAINTAINER Arshad Kazmi
 
