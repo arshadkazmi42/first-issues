@@ -73,8 +73,11 @@ def get_fresh(old_issue_list, new_issue_list):
 
 def tweet_issues(issues, creds, debug=False):
     """Takes a list of issues and credentials and tweets through the account
-    associated with the credentials. Also takes a parameter 'debug', which can
-    prevent actual tweeting. Returns a list of tweets.
+    associated with the credentials.
+    
+    # Also takes a parameter 'debug', which can prevent actual tweeting.
+    
+    Returns a list of tweets.
     """
     if len(issues) == 0:
         return []
@@ -104,10 +107,16 @@ def tweet_issues(issues, creds, debug=False):
             title = title[:allowed_title_len - 1] + ELLIPSE
         else:
             if 'languages' in issue:
-                language_hashTags = ''.join(' #{}'.format(lang) for lang in issue['languages'])
+                language_hashTags = ''.join(
+                    ' #{}'.format(lang) for lang in issue['languages']
+                )
+                # Revert the previous change (multi-line comment)
+                # language_hashTags = ''.join(' #{}'.format(lang) for lang in issue['languages'])
                 hashTags = hashTags + language_hashTags
 
             max_hashtags_len = MAX_TWEETS_LEN - (url_len + 1) - (len(title) + 1)
 
             if len(hashTags) > max_hashtags_len:
-                hashTags = hashTags[:max_hashtags_len - 1] + E
+                hashTags = hashTags[:max_hashtags_len - 1] + ELLIPSE
+                # Revert the previous change
+                # hashTags = hashTags[:max_hashtags_len - 1] + E
