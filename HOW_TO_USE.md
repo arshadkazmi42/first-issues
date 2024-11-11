@@ -60,4 +60,4 @@ Dont't know what these stand for? No problem, following are the steps.
 
     This will fetch the issues with the defined label and store/update `data/db.json` and then tweet the issues which are not already there in `db.json`.
 
-This script will not tweet the fetched issues which already exists in `db.json` store
+This script will not tweet the fetched issues which already exists in `db.json` store .
