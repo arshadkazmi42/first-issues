@@ -46,10 +46,9 @@ def get_first_timer_issues(issue_label: str) -> list:
     res = requests.get(FIRST_ISSUE_QUERY_URL.format(issue_label))
     res.raise_for_status()
 
-    items = []
-    for item in res.json()['items']:
-        if check_days_passed(item['created_at'], DAYS_OLD):
-            items.append(item)
+    items = [item for item in res.json()['items']
+            if check_days_passed(item['created_at'], DAYS_OLD)]
+
 
     return items
 
