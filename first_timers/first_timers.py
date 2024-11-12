@@ -49,7 +49,6 @@ def get_first_timer_issues(issue_label: str) -> list:
     items = [item for item in res.json()['items']
             if check_days_passed(item['created_at'], DAYS_OLD)]
 
-
     return items
 
 
