@@ -22,7 +22,7 @@ To use this bot,
  }
 ```
 
-Dont't know what these stand for? No problem, following are the steps.
+Don't know what these stand for? No problem, Please follow the steps below:
 
 - Create a developer account in twitter and then create an app [here](https://developer.twitter.com/en/apps) which will give the following:
 
