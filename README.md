@@ -1,67 +1,74 @@
 <div align="center">
+  <img src="https://raw.githubusercontent.com/arshadkazmi42/first-issues/master/assets/first_issues_round.png" height="150" alt="First Issues Logo">
 
-<img src="https://raw.githubusercontent.com/arshadkazmi42/first-issues/master/assets/first_issues_round.png" height="150">
+# 🚀 First Issues Bot - Your Gateway to Open Source Contribution
 
-# First Issues Bot
+[![Build Status](https://img.shields.io/github/actions/workflow/status/arshadkazmi42/first-issues/pytest.yml?branch=master&label=Build&logo=github)](https://github.com/arshadkazmi42/first-issues/actions/workflows/pytest.yml)
+[![Code Size](https://img.shields.io/github/languages/code-size/arshadkazmi42/first-issues?logo=github)](https://github.com/arshadkazmi42/first-issues)
+[![License](https://img.shields.io/github/license/arshadkazmi42/first-issues?color=blue&logo=opensourceinitiative)](https://github.com/arshadkazmi42/first-issues/blob/master/LICENSE)
+[![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/first-issues?color=green&logo=github)](https://github.com/arshadkazmi42/first-issues/graphs/contributors)
+[![Last Commit](https://img.shields.io/github/last-commit/arshadkazmi42/first-issues?logo=git)](https://github.com/arshadkazmi42/first-issues)
 
-[![Build](https://github.com/arshadkazmi42/first-issues/actions/workflows/pytest.yml/badge.svg)](https://github.com/arshadkazmi42/first-issues/actions/workflows/pytest.yml)
-[![Repo Size](https://img.shields.io/github/languages/code-size/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues)
-[![LICENSE](https://img.shields.io/github/license/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues/blob/master/LICENSE)
-[![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues/graphs/contributors)
-[![Last Commit](https://img.shields.io/github/last-commit/arshadkazmi42/first-issues.svg)](https://github.com/arshadkazmi42/first-issues)
-
-Do you want to contribute to open source software, but don't know where to start?
-We have developed a bot which tweets all github issues with the label `good first issue` or `good-first-issue`.
-Issues with these labels are easy to solve, which makes them perfect for Github users who are new to open source.
-
-You can follow our twitter account
-<a href="https://twitter.com/first_issues" target="_blank"><img src="https://pbs.twimg.com/profile_images/1111729635610382336/_65QFl7B.png" alt="[@first_issues](https://twitter.com/first_issues)" height="20" ></a>
-or telegram channel
-<a href="https://t.me/firstissues" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Telegram_alternative_logo.svg/256px-Telegram_alternative_logo.svg.png" alt="[@first_issues](https://twitter.com/first_issues)" height="20" ></a>
-or simply
-[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/arshadkazmi42&first-issues)
+🌟 **Discover beginner-friendly open source issues and make your first contribution!** 🌟
 
 </div>
-  
-## How to use 🤔
-Read our how to use guide [here](HOW_TO_USE.md).
 
-## Deployment
+## 📌 About the Project
 
-Currently this application can be deployed as a docker container or it can be deployed as a standalone cron job.
+First Issues Bot helps newcomers find perfect entry points into open source by curating GitHub issues labeled as `good first issue` or `good-first-issue`. These are specially marked as approachable for first-time contributors.
 
-- [Docker Deployment](DOCKER_DEPLOYMENT.md)
+### 📱 Follow Us
+- Twitter: [@first_issues](https://twitter.com/first_issues) <img src="https://pbs.twimg.com/profile_images/1111729635610382336/_65QFl7B.png" height="16">
+- Telegram: [@firstissues](https://t.me/firstissues) <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Telegram_alternative_logo.svg/256px-Telegram_alternative_logo.svg.png" height="16">
 
-## Troubleshooting 🛠
+[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg?logo=githubsponsors)](https://saythanks.io/to/arshadkazmi42&first-issues)
 
-Seeing any errors while running the bot? Check out the [Troubleshooting Guide](TROUBLESHOOTING.md).
+## 🛠️ How to Use
 
-If your problem is not present there, then go ahead and create an [issue](https://github.com/arshadkazmi42/first-issues/issues/new)
+Get started with our comprehensive [How To Use Guide](HOW_TO_USE.md).
 
-## Contributing 🧑‍💻
+## 🚀 Deployment Options
 
-- If you have got any suggestions, drop your suggestions [here](https://github.com/arshadkazmi42/first-issues/issues/new).
-- If you want to fix some existing bugs in the script, you can find open issues [here](https://github.com/arshadkazmi42/first-issues/issues)
+Choose the deployment method that works best for you:
 
-Read our Contribution guide [here](Contribution.md).
+- [Docker Container Deployment](DOCKER_DEPLOYMENT.md) (Recommended)
+- Standalone Cron Job
 
-## Sponsors 🌟
+## 🔍 Troubleshooting
 
-[<img src="./assets/kite-logo.png" alt="drawing" style="width:80px;"/>](https://www.kgkite.ac.in/)
+Experiencing issues? Check our [Troubleshooting Guide](TROUBLESHOOTING.md) first.
+
+Can't find your issue? [Create a new issue](https://github.com/arshadkazmi42/first-issues/issues/new) and we'll help you out!
+
+## 👥 Contributing
+
+We welcome contributions from everyone! Here's how you can help:
+
+- 💡 Suggest improvements by [creating an issue](https://github.com/arshadkazmi42/first-issues/issues/new)
+- 🐛 Fix existing bugs - check out our [open issues](https://github.com/arshadkazmi42/first-issues/issues)
+- 📖 Improve documentation
+
+Read our [Contribution Guide](Contribution.md) to get started.
+
+## ✨ Sponsors
+
+We're grateful to our sponsors for their support:
+
+### 🌟 Current Sponsors
+[<img src="./assets/kite-logo.png" alt="KITE Tech College" style="height:80px;"/>](https://www.kgkite.ac.in/)
 | --- |
 [@KiTETechCollege](https://twitter.com/KiTETechCollege)
 
-## Past Sponsors ⭐️
+### ⭐️ Past Sponsors
+| [![Utkarsh Upadhyay](https://github.com/musically-ut.png?size=80)](https://github.com/musically-ut) | [![Subhrajyoti Sen](https://github.com/SubhrajyotiSen.png?size=80)](https://github.com/SubhrajyotiSen) | [![Swapnil Agarwal](https://github.com/swapagarwal.png?size=80)](https://github.com/swapagarwal) |
+|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| [@musically-ut](https://github.com/musically-ut)                                                  | [@SubhrajyotiSen](https://github.com/SubhrajyotiSen)                                                | [@swapagarwal](https://github.com/swapagarwal)                                                |
 
-| [![Utkarsh Upadhyay](https://github.com/musically-ut.png?size=60)](https://github.com/musically-ut) | [![Subhrajyoti Sen](https://github.com/SubhrajyotiSen.png?size=60)](https://github.com/SubhrajyotiSen) | [![Swapnil Agarwal](https://github.com/swapagarwal.png?size=60)](https://github.com/swapagarwal) |
-| --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
-| [@musically-ut](https://github.com/musically-ut)                                                    | [@SubhrajyotiSen](https://github.com/SubhrajyotiSen)                                                   | [@swapagarwal](https://github.com/swapagarwal)                                                   |
+## 📜 License
 
-## License 👮
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Read our license [here](https://github.com/arshadkazmi42/first-issues/blob/master/LICENSE).
+## 🙏 Credits
 
-## Credits 👏
-
-- This is inspired by [Utkarsh's](https://github.com/musically-ut) work on [first-timers-only-bot](https://github.com/musically-ut/first-timers-only-bot)
-- The header image for the Twitter page and the icon were generously created by Issac Mikel ([@icusficus](https://github.com/icusficus))
+- Inspired by [Utkarsh Upadhyay's](https://github.com/musically-ut) [first-timers-only-bot](https://github.com/musically-ut/first-timers-only-bot)
+- Beautiful logo and header image designed by [Issac Mikel (@icusficus)](https://github.com/icusficus)
