@@ -13,6 +13,17 @@
 
 </div>
 
+## 📑 Table of Contents
+- [About the Project](#-about-the-project)
+- [Follow Us](#-follow-us)
+- [How to Use](#️-how-to-use)
+- [Deployment Options](#-deployment-options)
+- [Troubleshooting](#-troubleshooting)
+- [Contributing](#-contributing)
+- [Sponsors](#-sponsors)
+- [License](#-license)
+- [Credits](#-credits)
+
 ## 📌 About the Project
 
 First Issues Bot helps newcomers find perfect entry points into open source by curating GitHub issues labeled as `good first issue` or `good-first-issue`. These are specially marked as approachable for first-time contributors.
