@@ -57,19 +57,25 @@ def check_days_passed(date_created: str, days: int) -> bool:
     return (datetime.now() - created_at).days < days
 
 
+def fetch_repo_languages(repo_url):
+    """Fetches languages for a given repository URL."""
+    url = f"{repo_url}/languages"
+    response = requests.get(url)
+    if response.status_code == 403:
+        log_warning('Rate limit reached getting languages')
+        return None
+    if response.ok:
+        return response.json()
+    log_warning(f'Could not handle response: {response} from the API.')
+    return None
+    
+
 def add_repo_languages(issues):
     """Adds the repo languages to the issues list."""
     for issue in issues:
-        query_languages = issue['repository_url'] + '/languages'
-        res = requests.get(query_languages)
-        if res.status_code == 403:
-            log_warning('Rate limit reached getting languages')
-            return issues
-        if res.ok:
-            issue['languages'] = res.json()
-        else:
-            log_warning('Could not handle response: ' +
-                          str(res) + ' from the API.')
+        languages = fetch_repo_languages(issue['repository_url'])
+        if languages is not None:
+            issue['languages'] = languages
     return issues
 
 
