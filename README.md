@@ -3,6 +3,24 @@
 
 # 🚀 First Issues Bot - Your Gateway to Open Source Contribution
 
+## About
+A Twitter bot that helps newcomers find `good-first-issue` tasks on GitHub.
+
+## Sponsors
+### Past Sponsors
+- [@subhrajyotisen](https://github.com/subhrajyotisen)
+- [@swapagarwal](https://github.com/swapagarwal)
+
+## New Features
+- **Issue Filter**: Added functionality to filter GitHub issues by label (e.g., `good-first-issue`).
+
+## License
+MIT License - See [LICENSE](LICENSE) for details.
+
+## Credits
+- Inspired by [first-timers-only-bot](https://github.com/musically-ut/first-timers-only-bot) by [Utkarsh Upadhyay](https://github.com/musically-ut)
+- Logo/header design by [Issac Mikel (@icusficus)](https://github.com/icusficus)
+
 [![Build Status](https://img.shields.io/github/actions/workflow/status/arshadkazmi42/first-issues/pytest.yml?branch=master&label=Build&logo=github)](https://github.com/arshadkazmi42/first-issues/actions/workflows/pytest.yml)
 [![Code Size](https://img.shields.io/github/languages/code-size/arshadkazmi42/first-issues?logo=github)](https://github.com/arshadkazmi42/first-issues)
 [![License](https://img.shields.io/github/license/arshadkazmi42/first-issues?color=blue&logo=opensourceinitiative)](https://github.com/arshadkazmi42/first-issues/blob/master/LICENSE)
@@ -83,3 +101,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Inspired by [Utkarsh Upadhyay's](https://github.com/musically-ut) [first-timers-only-bot](https://github.com/musically-ut/first-timers-only-bot)
 - Beautiful logo and header image designed by [Issac Mikel (@icusficus)](https://github.com/icusficus)
+## New Issue Filter
+Added a feature to filter GitHub issues by label.
